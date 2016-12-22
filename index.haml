@@ -1,0 +1,95 @@
+!!! 5
+%html{:lang => "es"}
+  %head
+    %meta{:charset => "UTF-8"}/
+    %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", :name => "viewport"}/
+    %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
+    %title Moquegua | Turismo
+  %body
+    %section.Bienvenidos
+      %header.encabezado{:role => "banner"}
+        %a{:href => "index.html"}
+          %img{:alt => "logo del sitio", :src => "images/logo.svg"}/
+        %button.boton-buscar{:type => "buttom"} Buscar
+        %button.boton-menu{:type => "buttom"} Menu
+        %from#bloque-buscar{:action => ""}
+          .contenedor-bloque-buscar
+            %input{:placeholder => "Buscar...", :type => "text"}/
+            %input{:type => "submit", :value => "Buscar"}/
+        %nav#menu-principal
+          %ul
+            %li.active
+              %a{:href => "index.html"} Inicio
+            %li
+              %a{:href => "nosotros.html"} Nosotros
+            %li
+              %a{:href => "servicios.html"} Servicios Turisticos
+            %li
+              %a{:href => "contacto.html"} Contacto
+      .text-encabezado
+        %h1 Moquegua “Tierra del sol, tradición y amistad”
+        %p La ciudad de Moquegua presenta una arquitectura tradicional que por su valor histórico y artístico
+        %a{:href => "contacto.hmtl"} Conoce más
+      .fecha-bajar
+        %a{:href => "capital"} Boton mas
+    %section#capital.capital
+      %h2 “Capital del Dulce y el Pisco”
+      %p
+        Se encuentra en la costa y sierra suroeste del Perú, sobre los 1410 m.s.n.m., entre los contrafuertes de los andes y la costa del pacífico.
+      %p
+        Cuenta con un clima benigno y acogedor, considerado como el mejor del país, temperatura promedio 22 °C; de sol radiante durante todo el año que invita al descanso y el disfrute de su naturaleza, cultura y deliciosos manjares que deleitan al más exigente paladar
+      %img{:alt => "moquegua", :src => "images/capital.svg"}/
+    %section.conozca-moquegua
+      %h2
+        Conozca más sobre
+        %spam Moquegua
+      %p Amantes de las playas, aficionados a la historia, apasionados de la tradición vitivinícola y la naturaleza.
+      %ul
+        %li
+          %img{:alt => "", :src => "images/section1.svg"}/
+          %h4 Qué hacer
+        %li
+          %img{:alt => "", :src => "images/section2.svg"}/
+          %h4 Donde ir
+        %li
+          %img{:alt => "", :src => "images/section3.svg"}/
+          %h4 Multimedia
+      %ul
+        %li
+          %img{:alt => "", :src => "images/section4.svg"}/
+          %h4 Atractivos turísticos
+        %li
+          %img{:alt => "", :src => "images/section5.svg"}/
+          %h4 Gastronomía
+        %li
+          %img{:alt => "", :src => "images/section6.svg"}/
+          %h4 Fechas para celebrar
+    %main.servicos-turisticos
+      %h2 Servicios Turísticos
+      %article
+        %img{:alt => "Transporte", :src => "images/main1.svg"}/
+        %h3 Transporte
+      %article
+        %img{:alt => "Alojamiento", :src => "images/main2.svg"}/
+        %h3 Alojamiento
+      %article
+        %img{:alt => "Restaurantes", :src => "images/main3.svg"}/
+        %h3 Restaurantes
+      %article
+        %img{:alt => "Hospitales", :src => "images/main4.svg"}/
+        %h3 Hospitales
+    %section.actividades-interes
+      %h2 Actividades por Interés
+      %a{:href => "#"}
+        %h4 Actividades por Interés
+        %img{:alt => "interes", :src => "images/interes1.jpg"}/
+    %footer.pie-pagina{:role => "contentinfo"}
+      %p 2016 @Moquegua todos los derechos reservados
+      %ul
+        %li
+          %a{:href => "#"} Facebook
+        %li
+          %a{:href => "#"} Twitter
+        %li
+          %a{:href => "#"} YouTube
+    %a{:href => "#"} ir arriba

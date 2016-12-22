@@ -1,0 +1,86 @@
+//---------------------
+// PATRON DE COLORES
+//---------------------
+$text:#111111;
+$principal:#F1780D;
+$secundario:#F1A50D;
+html {
+	font-size: 15px;
+}
+body {
+	font-family: 'Cormorant Upright', serif;
+	color: $text;
+}
+.encabezado {
+	background: $text;
+	color: #fff;
+	padding: .5rem 0;
+}
+.encabezado .container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.encabezado .logo img {
+	width: 100px;
+	height: auto;
+	margin-bottom: auto;
+}
+.boton-buscar,
+.boton-menu {
+	border: 0;
+	font-size: 2rem;
+	margin: 0;
+	padding: 0 .5rem;
+	background: transparent;
+	color: #fff;
+}
+.boton-buscar:focus,
+.boton-menu:focus {
+	outline: 0;
+}
+.boton-buscar {
+	margin-left: auto;
+	margin-right: .6rem;
+}
+#bloque-buscar {
+	flex: 1 1 100%;
+}
+.container-bloque-buscar {
+	display: flex;
+	height: 3rem;
+	margin: 1rem 0;
+}
+.container-bloque-buscar input[type="text"] {
+	border: 0;
+	border-radius: 5px 0 0 5px;
+	padding: 1rem;
+}
+.container-bloque-buscar input[type="submit"] {
+	flex: 1 1 auto;
+	border: 0;
+	border-radius: 0 5px 5px 0;
+	background: $principal;
+	color: #fff;
+}
+#menu-principal {
+	flex: 1 1 100%;
+}
+#menu-principal ul {
+	margin: 1rem 0 0;
+	list-style: none;
+	padding: 0;
+}
+#menu-principal ul li a {
+	display: block;
+	padding: .8rem 0;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	border-top: 1px solid $secundario;
+	text-decoration: none;
+}
+#menu-principal ul li a:hover,
+#menu-principal ul li.active a {
+	color: #F1CB0D;
+}
