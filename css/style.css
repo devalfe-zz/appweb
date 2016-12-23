@@ -117,6 +117,30 @@ body {
 .fecha-bajar a {
   display: inline-block;
   color: #fff;
-  font-size: 4rem; }
+  font-size: 4rem;
+  -webkit-animation: flecha-anim 2s ease-in-out infinite;
+  animation: flecha-anim 2s ease-in-out infinite; }
+
+@-webkit-keyframes flecha-anim {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes flecha-anim {
+  from {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
 
 /*# sourceMappingURL=style.css.map */
