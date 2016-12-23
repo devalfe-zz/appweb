@@ -9,7 +9,13 @@ body {
   background: url("../images/fondo-principal.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
 
 .encabezado {
   background: #111111;
@@ -97,6 +103,17 @@ body {
 #menu-principal ul li a:hover,
 #menu-principal ul li.active a {
   color: #F1CB0D; }
+
+.text-encabezado {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 .text-encabezado .display-4 {
   margin-top: 5.3rem; }
