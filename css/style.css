@@ -92,4 +92,20 @@ body {
 #menu-principal ul li.active a {
   color: #F1CB0D; }
 
+.text-encabezado .display-4 {
+  margin-top: 7rem; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #F1780D;
+  border-color: transparent;
+  margin-top: 1rem;
+  transition: all .5s ease; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #F1A50D;
+  border-color: transparent; }
+
 /*# sourceMappingURL=style.css.map */
