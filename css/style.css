@@ -5,6 +5,12 @@ body {
   font-family: 'Cormorant Upright', serif;
   color: #111111; }
 
+.bienvenidos {
+  background: url("../images/fondo-principal.jpg") no-repeat center top;
+  color: #fff;
+  background-size: cover;
+  height: 100vh; }
+
 .encabezado {
   background: #111111;
   color: #fff;
@@ -93,7 +99,7 @@ body {
   color: #F1CB0D; }
 
 .text-encabezado .display-4 {
-  margin-top: 7rem; }
+  margin-top: 5.3rem; }
 
 .btn-primary {
   color: #fff;
@@ -107,5 +113,10 @@ body {
 .btn-primary:active {
   background-color: #F1A50D;
   border-color: transparent; }
+
+.fecha-bajar a {
+  display: inline-block;
+  color: #fff;
+  font-size: 4rem; }
 
 /*# sourceMappingURL=style.css.map */
