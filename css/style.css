@@ -1,14 +1,16 @@
 html {
-  font-size: 16px; }
+  font-size: 1.1rem; }
 
 body {
   font-family: 'Cormorant Upright', serif;
-  color: #111111; }
+  color: #111111;
+  font-size: 1.15rem; }
 
 .bienvenidos {
   background: url("../images/fondo-principal.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
+  background-attachment: fixed !important;
   height: 100vh;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -20,7 +22,15 @@ body {
 .encabezado {
   background: #111111;
   color: #fff;
-  padding: .5rem 0; }
+  padding: .5rem 0;
+  transition: all .5s ease; }
+
+.encabezado.fondo-menu {
+  background: #F1780D;
+  padding: .7rem 0; }
+
+.encabezado.fondo-menu #menu-principal ul li a {
+  color: #f6de73; }
 
 .encabezado .container {
   display: -webkit-flex;
@@ -34,9 +44,13 @@ body {
   flex-wrap: wrap; }
 
 .encabezado .logo img {
-  width: 100px;
+  width: 50px;
   height: auto;
   margin-bottom: auto; }
+
+.bienvenidos .logo-moque img {
+  width: 35%;
+  height: auto; }
 
 .boton-buscar,
 .boton-menu {
@@ -105,12 +119,12 @@ body {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  border-top: 1px solid #F1780D;
+  border-top: 1px solid #F1A50D;
   text-decoration: none; }
 
 #menu-principal ul li a:hover,
 #menu-principal ul li.active a {
-  color: #F1780D; }
+  color: #F1A50D; }
 
 .text-encabezado {
   -webkit-flex: 1 1 auto;
@@ -124,7 +138,7 @@ body {
   display: flex; }
 
 .text-encabezado .display-4 {
-  margin-top: 5.3rem; }
+  margin-top: 1.5rem; }
 
 .btn-primary {
   color: #fff;
@@ -139,14 +153,87 @@ body {
   background-color: #F1A50D;
   border-color: transparent; }
 
-.fecha-bajar a {
+/***** Modal *****/
+.modal-backdrop.in {
+  filter: alpha(opacity=7);
+  opacity: 0.7; }
+
+.modal-content {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none; }
+
+.modal-body {
+  padding: 0 25px 25px 25px; }
+
+.modal-header {
+  padding: 25px 25px 15px 25px;
+  text-align: right; }
+
+.modal-header,
+.modal-footer {
+  border: 0; }
+
+.modal-header .close {
+  float: none;
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+  font-weight: 300;
+  text-shadow: none;
+  opacity: 1; }
+
+.video-link {
+  padding-top: 70px; }
+
+.video-link a {
+  text-decoration: none; }
+
+.video-link .video-link-text {
+  color: #fff; }
+
+.video-link .video-link-text:hover,
+.video-link .video-link-text:focus,
+.video-link .video-link-text:active {
+  text-decoration: none;
+  border-bottom: 1px dotted #fff; }
+
+.medium-paragraph {
+  font-size: 18px;
+  line-height: 32px; }
+
+.video-link-icon .fa {
+  position: relative;
+  display: inline-block;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  margin-right: 1rem;
+  text-align: center;
+  transition: all 1s ease;
+  font-size: 1rem;
+  background: #F1780D;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  color: #fff; }
+
+.video-link-icon .fa:hover,
+.video-link-icon .fa:focus,
+.video-link-icon .fa:active {
+  color: #F1780D;
+  background: #fff; }
+
+.flecha a {
   display: inline-block;
   color: #fff;
   font-size: 4rem;
-  -webkit-animation: flecha-anim 2s ease-in-out infinite;
-  animation: flecha-anim 2s ease-in-out infinite; }
+  -webkit-animation: flecha 2s ease-in-out infinite;
+  animation: flecha 2s ease-in-out infinite; }
 
-@-webkit-keyframes flecha-anim {
+@-webkit-keyframes flecha {
   from {
     -webkit-transform: translateY(0);
     transform: translateY(0); }
@@ -157,7 +244,7 @@ body {
     -webkit-transform: translateY(0);
     transform: translateY(0); } }
 
-@keyframes flecha-anim {
+@keyframes flecha {
   from {
     -webkit-transform: translateY(0);
     transform: translateY(0); }
@@ -176,25 +263,17 @@ body {
   color: #fff; }
 
 .capital img {
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
-  display: block;
-  margin-bottom: 1rem; }
-
-.capital h3 {
-  margin-top: .5rem; }
+  display: block; }
 
 /*******************************
 *** seccion 3				 ***
 *******************************/
-.conozca-moquegua {
-  margin-top: .5rem; }
-
 .conozca-moquegua img {
   width: 100%;
   margin: 0 auto;
-  display: block;
-  margin-bottom: 1rem; }
+  display: block; }
 
 .conozca-moquegua h2 spam {
   color: #F1780D; }
@@ -212,18 +291,13 @@ body {
   line-height: 5rem;
   color: #fff; }
 
-.conozca-moquegua ul li,
-.eleccion h4 {
+.conozca-moquegua ul li .eleccion h4 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: .5rem; }
 
-.conozca-moquegua ul li,
-.eleccion p {
-  font-weight: normal; }
-
 .conozca-moquegua ul li {
-  min-height: 11rem; }
+  min-height: 7rem; }
 
 /*******************************
 *** seccion 4				 ***
@@ -231,6 +305,7 @@ body {
 .servicos {
   background: url("../images/seccion.jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed !important;
   color: #fff; }
 
 .servicos article {
@@ -343,12 +418,24 @@ body {
 .pie-pagina .social a {
   color: #fff;
   font-size: 2rem;
-  margin: 0 .5rem;
   opacity: .7;
+  margin: 5px 15px;
+  vertical-align: middle;
   transition: all .5s ease; }
 
-.pie-pagina .social a:hover .pie-pagina .social a:hover {
-  opacity: 1; }
+.pie-pagina .social a:hover,
+.pie-pagina .social a:focus {
+  opacity: 1;
+  outline: 0;
+  color: #fff; }
+
+.social .divider-2 {
+  display: inline-block;
+  width: 1px;
+  height: 30px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.4);
+  vertical-align: middle; }
 
 .ir-arriba {
   position: fixed;
@@ -367,6 +454,75 @@ body {
   text-decoration: none;
   color: #F1780D; }
 
+.servicos .container {
+  padding-top: 1rem;
+  padding-bottom: .5rem; }
+
+.capital .container {
+  padding-top: 1rem;
+  padding-bottom: .5rem; }
+
+.conozca-moquegua .container {
+  padding-top: 1rem;
+  padding-bottom: .5rem; }
+
+.actividades .container {
+  padding-top: 1rem;
+  padding-bottom: .5rem; }
+
+.pie-pagina .container {
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+
+.footer-container {
+  padding: 30px 15px;
+  background: #111;
+  color: #fff; }
+
+.footer-container img {
+  height: 100; }
+
+/*******************************
+***     nosotros            ***
+*******************************/
+.internas .bienvenidos {
+  height: 50vh; }
+
+.bar {
+  padding: 1rem; }
+
+.internas .ruta {
+  background: #F1780D;
+  color: #fff; }
+
+.internas .ruta a {
+  color: #fff;
+  text-decoration: underline; }
+
+.internas .ruta a:hover {
+  text-decoration: none; }
+
+.internas .card .card-header {
+  background-color: #F1780D; }
+
+.card-header {
+  padding: 0; }
+
+.internas .card .card-header a {
+  background: #F1780D;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 1rem;
+  transition: all .5s ease; }
+
+.internas .card .card-header a:hover {
+  background: #F1A50D;
+  color: #fff; }
+
+/*******************************
+*** media query pantalla 768 ***
+*******************************/
 @media (min-width: 768px) {
   #menu-principal {
     height: auto !important;
@@ -392,7 +548,7 @@ body {
     transition: all .5s ease; }
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
-    color: #F1780D;
+    color: #F1A50D;
     border-bottom: 5px solid; }
   .boton-buscar {
     margin-left: 1rem;
@@ -430,6 +586,87 @@ body {
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
     -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d; } }
+    transform-style: preserve-3d; }
+  .servicos h3 a::after {
+    display: none; }
+  .servicos h3 {
+    margin: 0 0 .5rem 0;
+    font-size: 2rem;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 100%; }
+  .btn-secondary {
+    margin-top: auto; }
+  html {
+    font-size: 16px; }
+  .servicos h3 a {
+    display: block;
+    width: 100%; }
+  .servicos p {
+    width: 100%; }
+  .social {
+    padding-top: 80px; } }
+
+/*******************************
+*** media query pantalla 992 ***
+*******************************/
+@media (min-width: 992px) {
+  html {
+    font-size: 16px; }
+  .bienvenidos {
+    background: url("../images/fondo-grande.jpg") no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed !important; }
+  .conozca-moquegua ul li {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .conozca-moquegua ul li .fa {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-right: 1rem;
+    text-align: center;
+    transition: all 1s ease; }
+  .conozca-moquegua ul li:hover .fa {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    background: #F1780D; }
+  .eleccion {
+    -webkit-flex: 1 0 0px;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0px; }
+  .servicos {
+    background: url("../images/seccion-grande.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed !important; }
+  .conozca-moquegua ul li .eleccion h4 {
+    margin-top: 0rem;
+    font-size: 1rem; }
+  .conozca-moquegua ul:first-child .fa {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-left: 1rem;
+    margin-right: 0; }
+  .conozca-moquegua ul li p {
+    font-size: 1rem; }
+  .bienvenidos .logo-moque img {
+    width: 25%; }
+  .social {
+    padding-top: 80px; } }
+
+@media (max-width: 767px) {
+  .video-link {
+    padding-top: 40px; }
+  .social {
+    padding-top: 50px; } }
+
+@media (max-width: 415px) {
+  .social .divider-2 {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
