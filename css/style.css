@@ -1,10 +1,10 @@
 html {
-  font-size: 1.1rem; }
+  font-size: 15px; }
 
 body {
-  font-family: 'Cormorant Upright', serif;
+  font-family: 'Bree-Regular', serif;
   color: #111111;
-  font-size: 1.15rem; }
+  font-size: 15px; }
 
 .bienvenidos {
   background: url("../images/fondo-principal.jpg") no-repeat center top;
@@ -180,7 +180,7 @@ body {
 .modal-header .close {
   float: none;
   margin: 0;
-  font-size: 36px;
+  font-size: 16px;
   color: #fff;
   font-weight: 300;
   text-shadow: none;
@@ -203,7 +203,7 @@ body {
   border-bottom: 1px dotted #fff; }
 
 .medium-paragraph {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 32px; }
 
 .video-link-icon .fa {
@@ -604,7 +604,7 @@ body {
   .btn-secondary {
     margin-top: auto; }
   html {
-    font-size: 16px; }
+    font-size: 15px; }
   .servicos h3 a {
     display: block;
     width: 100%; }
@@ -621,7 +621,7 @@ body {
 *******************************/
 @media (min-width: 992px) {
   html {
-    font-size: 16px; }
+    font-size: 15px; }
   .bienvenidos {
     background: url("../images/fondo-grande.jpg") no-repeat center top;
     background-size: cover;
