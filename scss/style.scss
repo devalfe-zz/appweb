@@ -5,13 +5,13 @@
 	$principal:#F1780D;
 	$secundario:#F1A50D;
 	html {
-	    font-size: 1.1rem;
-	    ;
+	    font-size:15px;
 	}
 	body {
-	    font-family: 'Cormorant Upright', serif;
+	    //font-family: 'Cormorant Upright', serif;
+	    font-family: 'Bree-Regular', serif;
 	    color: $text;
-	    font-size: 1.15rem;
+	    font-size: 15px;
 	}
 	.bienvenidos {
 	    background: url("../images/fondo-principal.jpg") no-repeat center top;
@@ -162,7 +162,7 @@
 	.modal-header .close {
 	    float: none;
 	    margin: 0;
-	    font-size: 36px;
+	    font-size: 16px;
 	    color: #fff;
 	    font-weight: 300;
 	    text-shadow: none;
@@ -185,7 +185,7 @@
 	    border-bottom: 1px dotted #fff;
 	}
 	.medium-paragraph {
-	    font-size: 18px;
+	    font-size: 16px;
 	    line-height: 32px;
 	}
 	.video-link-icon .fa {
@@ -553,7 +553,7 @@
 	        margin-top: auto;
 	    }
 	    html {
-	        font-size: 16px;
+	        font-size: 15px;
 	    }
 	    .servicos h3 a {
 	        display: block;
@@ -576,7 +576,7 @@
 
 	@media (min-width:992px) {
 	    html {
-	        font-size: 16px;
+	        font-size: 15px;
 	    }
 	    .bienvenidos {
 	        background: url("../images/fondo-grande.jpg") no-repeat center top;
