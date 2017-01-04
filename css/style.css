@@ -1,2 +1,788 @@
-html{font-size:1.1rem}body{font-family:'Cormorant Upright', serif;color:#111111;font-size:1.15rem}.bienvenidos{background:url("../images/fondo-principal.jpg") no-repeat center top;color:#fff;background-size:cover;background-attachment:fixed!important;height:100vh;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.encabezado{background:#111111;color:#fff;padding:.5rem 0;transition:all .5s ease}.encabezado.fondo-menu{background:#F1780D;padding:.7rem 0}.encabezado.fondo-menu #menu-principal ul li a{color:#f6de73}.encabezado .container{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.encabezado .logo img{width:50px;height:auto;margin-bottom:20rem}.bienvenidos .logo-moque img{width:35%;height:auto}.boton-buscar,.boton-menu{border:0;font-size:2rem;margin:0;padding:0 .5rem;background:transparent;color:#fff}.boton-buscar:focus,.boton-menu:focus{outline:0}.boton-buscar{margin-left:auto;margin-right:.6rem}.boton-buscar{margin-left:auto;margin-right:.6rem}#bloque-buscar{-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%}.container-bloque-buscar{display:-webkit-flex;display:-ms-flexbox;display:flex;height:3rem;margin:1rem 0}.container-bloque-buscar input[type=text]{border:0;border-radius:5px 0 0 5px;padding:1rem;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto}.container-bloque-buscar input[type=submit]{-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;border:0;border-radius:0 5px 5px 0;background:#F1780D;color:#fff;padding:0 1rem}#menu-principal{-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%}#menu-principal ul{margin:1rem 0 0;list-style:none;padding:0}#menu-principal ul li a{display:block;padding:.8rem 0;text-align:center;color:#fff;text-transform:uppercase;border-top:1px solid #F1A50D;text-decoration:none}#menu-principal ul li.active a,#menu-principal ul li a:hover{color:#F1A50D}.text-encabezado{-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;-webkit-align-items:center;-ms-flex-align:center;align-items:center;display:-webkit-flex;display:-ms-flexbox;display:flex}.text-encabezado .display-4{margin-top:1.5rem}.btn-primary{color:#fff;background-color:#F1780D;border-color:transparent;margin-top:1rem;transition:all .5s ease}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#F1A50D;border-color:transparent}.modal-backdrop.in{filter:alpha(opacity=7);opacity:0.7}.modal-content{background:none;border:0;border-radius:0;box-shadow:none}.modal-body{padding:0 25px 25px 25px}.modal-header{padding:25px 25px 15px 25px;text-align:right}.modal-footer,.modal-header{border:0}.modal-header .close{float:none;margin:0;font-size:36px;color:#fff;font-weight:300;text-shadow:none;opacity:1}.video-link{padding-top:70px}.video-link a{text-decoration:none}.video-link .video-link-text{color:#fff}.video-link .video-link-text:active,.video-link .video-link-text:focus,.video-link .video-link-text:hover{text-decoration:none;border-bottom:1px dotted #fff}.medium-paragraph{font-size:18px;line-height:32px}.video-link-icon .fa{position:relative;display:inline-block;-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;margin-right:1rem;text-align:center;transition:all 1s ease;font-size:1rem;background:#F1780D;border-radius:50%;width:3rem;height:3rem;line-height:3rem;color:#fff}.video-link-icon .fa:active,.video-link-icon .fa:focus,.video-link-icon .fa:hover{color:#F1780D;background:#fff}.flecha a{display:inline-block;color:#fff;font-size:4rem;-webkit-animation:flecha 2s ease-in-out infinite;animation:flecha 2s ease-in-out infinite}@-webkit-keyframes flecha{0%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(6px);transform:translateY(6px)}to{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes flecha{0%{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(6px);transform:translateY(6px)}to{-webkit-transform:translateY(0);transform:translateY(0)}}.capital{background:#F1780D;color:#fff}.capital img{width:85%;margin:0 auto;display:block}.conozca-moquegua img{width:100%;margin:0 auto;display:block}.conozca-moquegua h2 spam{color:#F1780D}.conozca-moquegua ul,.conozca-moquegua ul li{list-style:none}.conozca-moquegua ul li .fa{font-size:2.3rem;background:#F1A50D;border-radius:50%;width:5rem;height:5rem;line-height:5rem;color:#fff}.conozca-moquegua ul li .eleccion h4{font-size:1.2rem;font-weight:bold;margin-top:.5rem}.conozca-moquegua ul li{min-height:7rem}.servicos{background:url("../images/seccion.jpg") no-repeat center center;background-size:cover;background-attachment:fixed!important;color:#fff}.servicos article{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-ms-flex-align:center;align-items:center;margin:1rem 0}.servicos img{-webkit-flex:0 1 60px;-ms-flex:0 1 60px;flex:0 1 60px;overflow:hidden;margin-right:1rem}.servicos h3{margin:0;font-size:1.5rem;-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto}.servicos h3 a{color:#fff;font-size:1.5rem;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-decoration:none}.servicos h3 a:after{content:"\f054";font-family:FontAwesome;font-size:2rem;margin-left:1rem;opacity:.5;position:relative;left:0;transition:all .5s ease}.servicos h3 a:hover:after{left:-.5rem;opacity:1;color:#F1780D}.actividadesa a{text-decoration:none}.actividades a h4{text-decoration:none;font-weight:100;text-align:center;color:#111111}.actividades .container{padding-left:0;padding-right:0}.actividades .owl-nav{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:.5rem 0}.actividades .owl-next,.actividades .owl-prev{font-size:3rem;margin:0 .5rem;color:#F1780D}.actividades .owl-next:hover,.actividades .owl-prev:hover{color:#F1A50D;transition:all .5s ease}.pie-pagina{background:#111111;color:#fff;text-align:center}.pie-pagina .social{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;list-style:none;margin:0;padding:0}.pie-pagina .social a{color:#fff;font-size:2rem;opacity:.7;margin:5px 15px;vertical-align:middle;transition:all .5s ease}.pie-pagina .social a:focus,.pie-pagina .social a:hover{opacity:1;outline:0;color:#fff}.social .divider-2{display:inline-block;width:1px;height:30px;background:#fff;background:rgba(255, 255, 255, 0.4);vertical-align:middle}.ir-arriba{position:fixed;bottom:1rem;right:1rem;font-size:3rem;color:#F1A50D;text-decoration:none;z-index:99999;line-height:0;transition:all .5s ease}.ir-arriba:focus,.ir-arriba:hover{outline:0;text-decoration:none;color:#F1780D}.servicos .container{padding-top:1rem;padding-bottom:.5rem}.capital .container{padding-top:1rem;padding-bottom:.5rem}.conozca-moquegua .container{padding-top:1rem;padding-bottom:.5rem}.actividades .container{padding-top:1rem;padding-bottom:.5rem}.pie-pagina .container{padding-top:1rem;padding-bottom:2rem}.footer-container{padding:30px 15px;background:#111;color:#fff}.footer-container img{height:100}.internas .bienvenidos{height:50vh}.bar{padding:1rem}.internas .ruta{background:#F1780D;color:#fff}.internas .ruta a{color:#fff;text-decoration:underline}.internas .ruta a:hover{text-decoration:none}.internas .card .card-header{background-color:#F1780D}.card-header{padding:0}.internas .card .card-header a{background:#F1780D;color:#fff;text-decoration:none;display:block;padding:1rem;transition:all .5s ease}.internas .card .card-header a:hover{background:#F1A50D;color:#fff}@media (min-width:768px){#menu-principal{height:auto!important;display:block;-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;margin-left:auto;-webkit-order:1;-ms-flex-order:1;order:1}#menu-principal ul{margin:0 0 0 0;display:-webkit-flex;display:-ms-flexbox;display:flex}#menu-principal ul li a{padding:.8rem;text-transform:capitalize;margin:o 0.3rem;border-top:0px;border-bottom:5px solid transparent;transition:all .5s ease}#menu-principal ul li.active a,#menu-principal ul li a:hover{color:#F1A50D;border-bottom:5px solid}.boton-buscar{margin-left:1rem;margin-right:0;-webkit-order:2;-ms-flex-order:2;order:2}#bloque-buscar{-webkit-order:3;-ms-flex-order:3;order:3;position:absolute;width:20rem;right:4rem;top:2.5rem;transition:all .5s ease}.servicos article{-webkit-align-items:center;-ms-flex-align:center;align-items:center;margin:1rem 0;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;text-align:center}.servicos img{-webkit-flex:0 1 130px;-ms-flex:0 1 130px;flex:0 1 130px;overflow:hidden;margin-right:0;margin-bottom:1rem;transition:all 1s ease}.servicos article:hover img{-webkit-transform:rotateY(360deg);transform:rotateY(360deg);-webkit-transform-style:preserve-3d;transform-style:preserve-3d}.servicos h3 a:after{display:none}.servicos h3{margin:0 0 .5rem 0;font-size:2rem;-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;width:100%}.btn-secondary{margin-top:auto}html{font-size:16px}.servicos h3 a{display:block;width:100%}.servicos p{width:100%}.social{padding-top:80px}}@media (min-width:992px){html{font-size:16px}.bienvenidos{background:url("../images/fondo-grande.jpg") no-repeat center top;background-size:cover;background-attachment:fixed!important}.conozca-moquegua ul li{display:-webkit-flex;display:-ms-flexbox;display:flex}.conozca-moquegua ul li .fa{-webkit-flex:0 1 auto;-ms-flex:0 1 auto;flex:0 1 auto;margin-right:1rem;text-align:center;transition:all 1s ease}.conozca-moquegua ul li:hover .fa{-webkit-transform:rotateY(360deg);transform:rotateY(360deg);-webkit-transform-style:preserve-3d;transform-style:preserve-3d;background:#F1780D}.eleccion{-webkit-flex:1 0 0px;-ms-flex:1 0 0px;flex:1 0 0px}.servicos{background:url("../images/seccion-grande.jpg") no-repeat center center;background-size:cover;background-attachment:fixed!important}.conozca-moquegua ul li .eleccion h4{margin-top:0rem;font-size:1rem}.conozca-moquegua ul:first-child .fa{-webkit-order:1;-ms-flex-order:1;order:1;margin-left:1rem;margin-right:0}.conozca-moquegua ul li p{font-size:1rem}.bienvenidos .logo-moque img{width:25%}.social{padding-top:80px}}@media (max-width:767px){.video-link{padding-top:40px}.social{padding-top:50px}}@media (max-width:415px){.social .divider-2{display:none}}
+html {
+    font-size: 1.1rem
+}
+
+body {
+    font-family: 'Cormorant Upright', serif;
+    color: #111111;
+    font-size: 1.15rem
+}
+
+.bienvenidos {
+    background: url("../images/fondo-principal.jpg") no-repeat center top;
+    color: #fff;
+    background-size: cover;
+    background-attachment: fixed!important;
+    height: 100vh;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.encabezado {
+    background: #111111;
+    color: #fff;
+    padding: .5rem 0;
+    transition: all .5s ease
+}
+
+.encabezado.fondo-menu {
+    background: #F1780D;
+    padding: .7rem 0
+}
+
+.encabezado.fondo-menu #menu-principal ul li a {
+    color: #f6de73
+}
+
+.encabezado .container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.encabezado .logo img {
+    width: 50px;
+    height: auto;
+    margin-bottom: auto
+}
+
+.bienvenidos .logo-moque img {
+    width: 35%;
+    height: auto
+}
+
+.boton-buscar,
+.boton-menu {
+    border: 0;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 .5rem;
+    background: transparent;
+    color: #fff
+}
+
+.boton-buscar:focus,
+.boton-menu:focus {
+    outline: 0
+}
+
+.boton-buscar {
+    margin-left: auto;
+    margin-right: .6rem
+}
+
+.boton-buscar {
+    margin-left: auto;
+    margin-right: .6rem
+}
+
+#bloque-buscar {
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%
+}
+
+.container-bloque-buscar {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 3rem;
+    margin: 1rem 0
+}
+
+.container-bloque-buscar input[type=text] {
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 1rem;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.container-bloque-buscar input[type=submit] {
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background: #F1780D;
+    color: #fff;
+    padding: 0 1rem
+}
+
+#menu-principal {
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%
+}
+
+#menu-principal ul {
+    margin: 1rem 0 0;
+    list-style: none;
+    padding: 0
+}
+
+#menu-principal ul li a {
+    display: block;
+    padding: .8rem 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border-top: 1px solid #F1A50D;
+    text-decoration: none
+}
+
+#menu-principal ul li.active a,
+#menu-principal ul li a:hover {
+    color: #F1A50D
+}
+
+.text-encabezado {
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.text-encabezado .display-4 {
+    margin-top: 1.5rem
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #F1780D;
+    border-color: transparent;
+    margin-top: 1rem;
+    transition: all .5s ease
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #F1A50D;
+    border-color: transparent
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7
+}
+
+.modal-content {
+    background: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    border-radius: 0
+}
+
+.modal-body {
+    padding: 0 25px 25px 25px
+}
+
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    text-align: right
+}
+
+.modal-footer,
+.modal-header {
+    border: 0
+}
+
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1
+}
+
+.video-link {
+    padding-top: 1rem;
+    padding-bottom: 2rem
+}
+
+.video-link a {
+    text-decoration: none
+}
+
+.video-link .video-link-text {
+    color: #fff
+}
+
+.video-link .video-link-text:active,
+.video-link .video-link-text:focus,
+.video-link .video-link-text:hover {
+    text-decoration: none;
+    border-bottom: 1px dotted #fff
+}
+
+.medium-paragraph {
+    font-size: 18px;
+    line-height: 32px
+}
+
+.video-link-icon .fa {
+    position: relative;
+    display: inline-block;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-right: 1rem;
+    text-align: center;
+    transition: all 1s ease;
+    font-size: 1rem;
+    background: #F1780D;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #fff
+}
+
+.video-link-icon .fa:active,
+.video-link-icon .fa:focus,
+.video-link-icon .fa:hover {
+    color: #F1780D;
+    background: #fff
+}
+
+.flecha a {
+    display: inline-block;
+    color: #fff;
+    font-size: 4rem;
+    -webkit-animation: flecha 2s ease-in-out infinite;
+    animation: flecha 2s ease-in-out infinite
+}
+
+@-webkit-keyframes flecha {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px)
+    }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes flecha {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    50% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px)
+    }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.capital {
+    background: #F1780D;
+    color: #fff
+}
+
+.capital img {
+    width: 85%;
+    margin: 0 auto;
+    display: block
+}
+
+.conozca-moquegua img {
+    width: 100%;
+    margin: 0 auto;
+    display: block
+}
+
+.conozca-moquegua h2 spam {
+    color: #F1780D
+}
+
+.conozca-moquegua ul,
+.conozca-moquegua ul li {
+    list-style: none
+}
+
+.conozca-moquegua ul li .fa {
+    font-size: 2.3rem;
+    background: #F1A50D;
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff
+}
+
+.conozca-moquegua ul li .eleccion h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .5rem
+}
+
+.conozca-moquegua ul li {
+    min-height: 7rem
+}
+
+.servicos {
+    background: url("../images/seccion.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed!important;
+    color: #fff
+}
+
+.servicos article {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1rem 0
+}
+
+.servicos img {
+    -webkit-flex: 0 1 60px;
+    -ms-flex: 0 1 60px;
+    flex: 0 1 60px;
+    overflow: hidden;
+    margin-right: 1rem
+}
+
+.servicos h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+.servicos h3 a {
+    color: #fff;
+    font-size: 1.5rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none
+}
+
+.servicos h3 a:after {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-size: 2rem;
+    margin-left: 1rem;
+    opacity: .5;
+    position: relative;
+    left: 0;
+    transition: all .5s ease
+}
+
+.servicos h3 a:hover:after {
+    left: -.5rem;
+    opacity: 1;
+    color: #F1780D
+}
+
+.actividadesa a {
+    text-decoration: none
+}
+
+.actividades a h4 {
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+    color: #111111
+}
+
+.actividades .container {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.actividades .owl-nav {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: .5rem 0
+}
+
+.actividades .owl-next,
+.actividades .owl-prev {
+    font-size: 3rem;
+    margin: 0 .5rem;
+    color: #F1780D
+}
+
+.actividades .owl-next:hover,
+.actividades .owl-prev:hover {
+    color: #F1A50D;
+    transition: all .5s ease
+}
+
+.pie-pagina {
+    background: #111111;
+    color: #fff;
+    text-align: center
+}
+
+.pie-pagina .social {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.pie-pagina .social a {
+    color: #fff;
+    font-size: 2rem;
+    opacity: .7;
+    margin: 5px 15px;
+    vertical-align: middle;
+    transition: all .5s ease
+}
+
+.pie-pagina .social a:focus,
+.pie-pagina .social a:hover {
+    opacity: 1;
+    outline: 0;
+    color: #fff
+}
+
+.social .divider-2 {
+    display: inline-block;
+    width: 1px;
+    height: 30px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.4);
+    vertical-align: middle
+}
+
+.ir-arriba {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    color: #F1A50D;
+    text-decoration: none;
+    z-index: 99999;
+    line-height: 0;
+    transition: all .5s ease
+}
+
+.ir-arriba:focus,
+.ir-arriba:hover {
+    outline: 0;
+    text-decoration: none;
+    color: #F1780D
+}
+
+.servicos .container {
+    padding-top: 1rem;
+    padding-bottom: .5rem
+}
+
+.capital .container {
+    padding-top: 1rem;
+    padding-bottom: .5rem
+}
+
+.conozca-moquegua .container {
+    padding-top: 1rem;
+    padding-bottom: .5rem
+}
+
+.actividades .container {
+    padding-top: 1rem;
+    padding-bottom: .5rem
+}
+
+.pie-pagina .container {
+    padding-top: 1rem;
+    padding-bottom: 2rem
+}
+
+.footer-container {
+    padding: 30px 15px;
+    background: #111;
+    color: #fff
+}
+
+.footer-container img {
+    height: 100
+}
+
+.internas .bienvenidos {
+    height: 50vh
+}
+
+.bar {
+    padding: 1rem
+}
+
+.internas .ruta {
+    background: #F1780D;
+    color: #fff
+}
+
+.internas .ruta a {
+    color: #fff;
+    text-decoration: underline
+}
+
+.internas .ruta a:hover {
+    text-decoration: none
+}
+
+.internas .card .card-header {
+    background-color: #F1780D
+}
+
+.card-header {
+    padding: 0
+}
+
+.internas .card .card-header a {
+    background: #F1780D;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    transition: all .5s ease
+}
+
+.internas .card .card-header a:hover {
+    background: #F1A50D;
+    color: #fff
+}
+
+@media (min-width:768px) {
+    #menu-principal {
+        height: auto!important;
+        display: block;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        margin-left: auto;
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1
+    }
+    #menu-principal ul {
+        margin: 0 0 0 0;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+    #menu-principal ul li a {
+        padding: .8rem;
+        text-transform: capitalize;
+        margin: o 0.3rem;
+        border-top: 0px;
+        border-bottom: 5px solid transparent;
+        transition: all .5s ease
+    }
+    #menu-principal ul li.active a,
+    #menu-principal ul li a:hover {
+        color: #F1A50D;
+        border-bottom: 5px solid
+    }
+    .boton-buscar {
+        margin-left: 1rem;
+        margin-right: 0;
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2
+    }
+    #bloque-buscar {
+        -webkit-order: 3;
+        -ms-flex-order: 3;
+        order: 3;
+        position: absolute;
+        width: 20rem;
+        right: 4rem;
+        top: 2.5rem;
+        transition: all .5s ease
+    }
+    .text-encabezado img {
+        margin-top: auto
+    }
+    .servicos article {
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: 1rem 0;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center
+    }
+    .servicos img {
+        -webkit-flex: 0 1 130px;
+        -ms-flex: 0 1 130px;
+        flex: 0 1 130px;
+        overflow: hidden;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        transition: all 1s ease
+    }
+    .servicos article:hover img {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d
+    }
+    .servicos h3 a:after {
+        display: none
+    }
+    .servicos h3 {
+        margin: 0 0 .5rem 0;
+        font-size: 2rem;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 100%
+    }
+    .btn-secondary {
+        margin-top: auto
+    }
+    html {
+        font-size: 16px
+    }
+    .servicos h3 a {
+        display: block;
+        width: 100%
+    }
+    .servicos p {
+        width: 100%
+    }
+    .social {
+        padding-top: 80px
+    }
+}
+
+@media (min-width:992px) {
+    html {
+        font-size: 16px
+    }
+    .bienvenidos {
+        background: url("../images/fondo-grande.jpg") no-repeat center top;
+        background-size: cover;
+        background-attachment: fixed!important
+    }
+    .conozca-moquegua ul li {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex
+    }
+    .conozca-moquegua ul li .fa {
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        margin-right: 1rem;
+        text-align: center;
+        transition: all 1s ease
+    }
+    .conozca-moquegua ul li:hover .fa {
+        -webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        background: #F1780D
+    }
+    .eleccion {
+        -webkit-flex: 1 0 0px;
+        -ms-flex: 1 0 0px;
+        flex: 1 0 0px
+    }
+    .servicos {
+        background: url("../images/seccion-grande.jpg") no-repeat center center;
+        background-size: cover;
+        background-attachment: fixed!important
+    }
+    .conozca-moquegua ul li .eleccion h4 {
+        margin-top: 0rem;
+        font-size: 1rem
+    }
+    .conozca-moquegua ul:first-child .fa {
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+        margin-left: 1rem;
+        margin-right: 0
+    }
+    .conozca-moquegua ul li p {
+        font-size: 1rem
+    }
+    .bienvenidos .logo-moque img {
+        width: 25%
+    }
+    .social {
+        padding-top: 80px
+    }
+}
+
+@media (max-width:767px) {
+    .video-link {
+        padding-top: auto
+    }
+    .social {
+        padding-top: 50px
+    }
+    .text-encabezado .display-4 {
+        margin-top: 6rem;
+        font-size: 1.5rem
+    }
+}
+
+@media (max-width:415px) {
+    .social .divider-2 {
+        display: none
+    }
+    .text-encabezado .display-4 {
+        margin-top: 5rem;
+        font-size: 1.5rem
+    }
+}
+
+
 /*# sourceMappingURL=style.css.map */
