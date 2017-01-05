@@ -142,11 +142,11 @@
 	}
 	/***** Modal *****/
 
-	.modal-backdrop.in {
+	.text-encabezado .modal-backdrop.in {
 	    filter: alpha(opacity=7);
 	    opacity: 0.7;
 	}
-	.modal-content {
+	.text-encabezado .modal-content {
 	    background: none;
 	    border: 0;
 	    border-radius: 0;
@@ -154,18 +154,18 @@
 	    border: 0;
 	    border-radius: 0;
 	}
-	.modal-body {
+	.text-encabezado .modal-body {
 	    padding: 0 25px 25px 25px;
 	}
-	.modal-header {
+	.text-encabezado .modal-header {
 	    padding: 25px 25px 15px 25px;
 	    text-align: right;
 	}
-	.modal-header,
-	.modal-footer {
+	.text-encabezado .modal-header,
+	.text-encabezado .modal-footer {
 	    border: 0;
 	}
-	.modal-header .close {
+	.text-encabezado .modal-header .close {
 	    float: none;
 	    margin: 0;
 	    font-size: 16px;
