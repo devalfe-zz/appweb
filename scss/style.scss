@@ -565,6 +565,21 @@
 	    color: #fff;
 	}
 	/*******************************
+***     servicios            ***
+*******************************/
+
+	.internas .lista-servicios {
+	    background: $secundario;
+	}
+
+	.internas .lista-servicios .item-servicios {
+	    background: $secundario;
+	    text-align: center;
+	    border: 5px solid #111;
+	    border-radius: 5px margin-bottom: 1rem;
+	    padding: 1rem;
+	}
+	/*******************************
 *** media query pantalla 768 ***
 *******************************/
 

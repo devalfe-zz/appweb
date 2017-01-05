@@ -533,6 +533,17 @@ body {
   color: #fff; }
 
 /*******************************
+***     servicios            ***
+*******************************/
+.internas .lista-servicios {
+  background: #F1A50D; }
+
+.internas .lista-servicios .item-servicios {
+  background: #F1A50D;
+  text-align: center;
+  border: 5px solid #111; }
+
+/*******************************
 *** media query pantalla 768 ***
 *******************************/
 @media (min-width: 768px) {
