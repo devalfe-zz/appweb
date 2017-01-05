@@ -552,7 +552,20 @@ h5 {
   border-radius: 5px;
   margin-bottom: 1rem;
   padding: 1rem;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  width: 100%; }
+
+.internas .lista-servicios .item-servicios .fa {
+  font-size: 6rem;
+  color: #F1780D;
+  margin-bottom: 1rem;
+  transition: all 1s ease; }
+
+.internas .lista-servicios .item-servicios:hover .fa {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
 
 /*******************************
 *** media query pantalla 768 ***
@@ -632,7 +645,20 @@ h5 {
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     width: 100%; }
-  .btn-secondary {
+  .servicos .btn-secondary {
+    margin-top: auto; }
+  .internas .lista-servicios .col-md-3 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .internas .lista-servicios .item-servicios {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .internas .lista-servicios .item-servicios .btn-primary {
     margin-top: auto; }
   html {
     font-size: 15px; }

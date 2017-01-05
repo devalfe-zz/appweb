@@ -507,6 +507,17 @@
 	    margin-bottom: 1rem;
 	    padding: 1rem;
 	    margin-top: 1rem;
+	    width: 100%
+	}
+	.internas .lista-servicios .item-servicios .fa {
+	    font-size: 6rem;
+	    color: $principal;
+	    margin-bottom: 1rem;
+	    transition: all 1s ease;
+	}
+	.internas .lista-servicios .item-servicios:hover .fa {
+	    transform: rotateY(360deg);
+	    transform-style: preserve-3d;
 	}
 	/*******************************
 *** media query pantalla 768 ***
@@ -580,7 +591,17 @@
 	        flex: 0 1 auto;
 	        width: 100%
 	    }
-	    .btn-secondary {
+	    .servicos .btn-secondary {
+	        margin-top: auto;
+	    }
+	    .internas .lista-servicios .col-md-3 {
+	        display: flex;
+	    }
+	    .internas .lista-servicios .item-servicios {
+	        display: flex;
+	        flex-direction: column;
+	    }
+	    .internas .lista-servicios .item-servicios .btn-primary {
 	        margin-top: auto;
 	    }
 	    html {
