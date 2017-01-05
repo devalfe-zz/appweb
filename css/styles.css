@@ -4,3 +4,14 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "Bree W01 Light";
+    src: url("../fonts/Bree/Bree W01 Light.eot");
+    /* IE9*/
+    src: url("../fonts/Bree/Bree W01 Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Bree/Bree W01 Light.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/Bree/Bree W01 Light.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/Bree/Bree W01 Light.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/Bree/Bree W01 Light.svg#Bree W01 Thin") format("svg");
+    /* iOS 4.1- */
+}

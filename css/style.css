@@ -2,9 +2,16 @@ html {
   font-size: 15px; }
 
 body {
-  font-family: 'Bree-Regular', serif;
+  font-family: 'Bree W01 Light', serif;
   color: #111111;
   font-size: 15px; }
+
+body h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bree-Regular', serif; }
 
 .bienvenidos {
   background: url("../images/fondo-principal.jpg") no-repeat center top;
@@ -496,7 +503,7 @@ body {
 .internas .bienvenidos {
   height: 50vh; }
 
-.bar {
+.ruta .bar {
   padding: 1rem; }
 
 .internas .ruta {
@@ -539,9 +546,13 @@ body {
   background: #F1A50D; }
 
 .internas .lista-servicios .item-servicios {
-  background: #F1A50D;
+  background: #fff;
   text-align: center;
-  border: 5px solid #111; }
+  border: 4px solid #F1CB0D;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  margin-top: 1rem; }
 
 /*******************************
 *** media query pantalla 768 ***
