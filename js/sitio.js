@@ -56,3 +56,27 @@ jQuery(document).ready(function () {
     });
 
 });
+
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+
+
+// Carousel Auto-Cycle
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 6000
+    })
+});
+
+
+
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 210,
+    itemMargin: 5
+  });
+});
