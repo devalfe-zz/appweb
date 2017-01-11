@@ -87,18 +87,14 @@ body h1, h2, h3, h4, h5 { font-family: 'Bree-Regular', serif; }
   50% { -webkit-transform: translateY(6px); transform: translateY(6px); }
   to { -webkit-transform: translateY(0); transform: translateY(0); } }
 
-/*******************************
-*** seccion 2				 ***
-*******************************/
+/******************************* seccion 2				 *** */
 .capital { background: #F1780D; color: #fff; }
 
 .capital img { width: 85%; margin: 0 auto; display: block; }
 
 .capital img { width: 85%; margin: 0 auto; display: block; }
 
-/*******************************
-*** seccion 3				 ***
-*******************************/
+/******************************* seccion 3				 *** */
 .conozca-moquegua img { width: 100%; margin: 0 auto; display: block; }
 
 .conozca-moquegua h2 spam { color: #F1780D; }
@@ -111,9 +107,7 @@ body h1, h2, h3, h4, h5 { font-family: 'Bree-Regular', serif; }
 
 .conozca-moquegua ul li { min-height: 7rem; }
 
-/*******************************
-*** seccion 4				 ***
-*******************************/
+/******************************* seccion 4				 *** */
 .servicos { background: url("../images/seccion.jpg") no-repeat center center; background-size: cover; background-attachment: fixed !important; color: #fff; }
 
 .servicos article { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin: 1rem 0; }
@@ -128,9 +122,7 @@ body h1, h2, h3, h4, h5 { font-family: 'Bree-Regular', serif; }
 
 .servicos h3 a:hover::after { left: -.5rem; opacity: 1; color: #F1780D; }
 
-/*******************************
-*** seccion 4				 ***
-*******************************/
+/******************************* seccion 4				 *** */
 .actividadesa a { text-decoration: none; }
 
 .actividades a h4 { text-decoration: none; font-weight: 100; text-align: center; color: #111111; }
@@ -143,9 +135,7 @@ body h1, h2, h3, h4, h5 { font-family: 'Bree-Regular', serif; }
 
 .actividades .owl-prev:hover, .actividades .owl-next:hover { color: #F1A50D; transition: all .5s ease; }
 
-/*******************************
-*** seccion 4				 ***
-*******************************/
+/******************************* seccion 4				 *** */
 .pie-pagina { background: #111111; color: #fff; text-align: center; }
 
 .pie-pagina .social { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; list-style: none; margin: 0; padding: 0; }
@@ -174,9 +164,7 @@ body h1, h2, h3, h4, h5 { font-family: 'Bree-Regular', serif; }
 
 .footer-container img { height: 70px; }
 
-/*******************************
-***     nosotros            ***
-*******************************/
+/******************************* nosotros            *** */
 .internas .bienvenidos { height: 50vh; }
 
 .ruta .bar { padding: 1rem; }
@@ -197,9 +185,7 @@ body h1, h2, h3, h4, h5 { font-family: 'Bree-Regular', serif; }
 
 .internas .card .card-header a:hover { background: #F1A50D; color: #fff; }
 
-/*******************************
-***     servicios            ***
-*******************************/
+/******************************* servicios            *** */
 .internas .lista-servicios .item-servicios { background: #fff; text-align: center; border: 4px solid #F1CB0D; border-radius: 5px; margin-bottom: 1rem; padding: 1rem; margin-top: 1rem; width: 100%; }
 
 .internas .lista-servicios .item-servicios .fa { font-size: 6rem; color: #F1780D; margin-bottom: 1rem; transition: all 1s ease; }
@@ -241,11 +227,9 @@ ul.thumbnails { margin-bottom: 1rem; list-style: none; padding-left: 0; }
 /* Page Header */
 .page-header { background: #f9f9f9; margin: 1rem -40px 40px; padding: 20px 40px; border-top: 4px solid #F1A50D; color: #F1780D; }
 
-.page-header h3 { line-height: 0.88rem; color: #000; }
+.page-header h2 { line-height: 0.88rem; color: #000; }
 
-/*******************************
-*** galeria ***
-*******************************/
+/******************************* galeria *** */
 .carousel, .carousel-inner > .item > img { width: 85rem; max-height: 50%; }
 
 .internas section { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
@@ -256,9 +240,69 @@ ul.thumbnails { margin-bottom: 1rem; list-style: none; padding-left: 0; }
 
 .internas .galeria img:hover { -webkit-filter: none; filter: none; }
 
-/*******************************
-*** media query pantalla 768 ***
-*******************************/
+.internas .mapa { width: 80%; margin: 0 auto; }
+
+.map-responsive { overflow: hidden; padding-bottom: 50%; position: relative; height: 0; }
+
+.map-responsive iframe { left: 0; top: 0; height: 100%; width: 100%; position: absolute; }
+
+.internas .mapa #map { left: 0px; z-index: 188; width: 100%; height: 700px; }
+
+.internas .mapa .page-footer { background: #f9f9f9; margin: 1rem -40px 15px; padding: 20px 40px; border-bottom: 4px solid #F1A50D; color: #F1780D; }
+
+.internas .mapa .page-footer h2 { line-height: 0.88rem; color: #000; }
+
+.internas .linetime #timeline { width: 80%; margin: 20px auto; position: relative; }
+
+.internas .linetime #timeline:before { content: ''; display: block; position: absolute; left: 50%; top: 0; margin: 0 0 0 -1px; width: 2px; height: 100%; background: rgba(255, 255, 255, 0.2); }
+
+.internas .linetime #timeline article { width: 100%; margin: 0 0 20px 0; position: relative; }
+
+.internas .linetime #timeline article:after { content: ''; display: block; clear: both; }
+
+.internas .linetime #timeline article div.inner { width: 40%; float: left; margin: 5px 0 0 0; border-radius: 6px; }
+
+.internas .linetime #timeline article div.inner span.date { display: block; width: 60px; height: 50px; padding: 5px 0; position: absolute; top: 0; left: 50%; margin: 0 0 0 -32px; border-radius: 100%; font-size: 12px; font-weight: 900; text-transform: uppercase; background: #25303B; color: rgba(255, 255, 255, 0.5); border: 2px solid rgba(255, 255, 255, 0.2); box-shadow: 0 0 0 7px #25303B; }
+
+.internas .linetime #timeline article div.inner span.date span { display: block; text-align: center; }
+
+.internas .linetime#timeline article div.inner span.date span.day { font-size: 10px; }
+
+.internas .linetime#timeline article div.inner span.date span.month { font-size: 18px; }
+
+.internas .linetime#timeline article div.inner span.date span.year { font-size: 10px; }
+
+.internas .linetime#timeline article div.inner h2 { padding: 15px; margin: 0; color: #fff; font-size: 20px; text-transform: uppercase; letter-spacing: -1px; border-radius: 6px 6px 0 0; position: relative; }
+
+.internas .linetime#timeline article div.inner h2:after { content: ''; position: absolute; top: 20px; right: -5px; width: 10px; height: 10px; -webkit-transform: rotate(-45deg); }
+
+.internas .linetime#timeline article div.inner p { padding: 15px; margin: 0; font-size: 14px; background: #fff; color: #656565; border-radius: 0 0 6px 6px; }
+
+.internas .linetime #timeline article:nth-child(2n+2) div.inner { float: right; }
+
+.internas .linetime #timeline article:nth-child(2n+2) div.inner h2:after { left: -5px; }
+
+.internas .linetime#timeline article:nth-child(1) div.inner h2 { background: #e74c3c; }
+
+.internas .linetime#timeline article:nth-child(1) div.inner h2:after { background: #e74c3c; }
+
+.internas .linetime#timeline article:nth-child(2) div.inner h2 { background: #2ecc71; }
+
+.internas .linetime#timeline article:nth-child(2) div.inner h2:after { background: #2ecc71; }
+
+.internas .linetime#timeline article:nth-child(3) div.inner h2 { background: #e67e22; }
+
+.internas .linetime#timeline article:nth-child(3) div.inner h2:after { background: #e67e22; }
+
+.internas .linetime#timeline article:nth-child(4) div.inner h2 { background: #1abc9c; }
+
+.internas .linetime#timeline article:nth-child(4) div.inner h2:after { background: #1abc9c; }
+
+.internas .linetime#timeline article:nth-child(5) div.inner h2 { background: #9b59b6; }
+
+.internas .linetime#timeline article:nth-child(5) div.inner h2:after { background: #9b59b6; }
+
+/******************************* media query pantalla 768 *** */
 @media (min-width: 768px) { #menu-principal { height: auto !important; display: block; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; margin-left: auto; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
   #menu-principal ul { margin: 0 0 0 0; display: -webkit-flex; display: -ms-flexbox; display: flex; }
   #menu-principal ul li a { padding: .8rem; text-transform: capitalize; margin: o 0.3rem; border-top: 0px; border-bottom: 5px solid transparent; transition: all .5s ease; }
@@ -281,9 +325,7 @@ ul.thumbnails { margin-bottom: 1rem; list-style: none; padding-left: 0; }
   .social { padding-top: 80px; }
   .text-encabezado .display-4 { margin-top: 4rem; font-size: 3.5rem; } }
 
-/*******************************
-*** media query pantalla 992 ***
-*******************************/
+/******************************* media query pantalla 992 *** */
 @media (min-width: 992px) { html { font-size: 15px; }
   .bienvenidos { background: url("../images/fondo-grande.jpg") no-repeat center top; background-size: cover; background-attachment: fixed !important; }
   .conozca-moquegua ul li { display: -webkit-flex; display: -ms-flexbox; display: flex; }
@@ -300,7 +342,13 @@ ul.thumbnails { margin-bottom: 1rem; list-style: none; padding-left: 0; }
 @media (max-width: 767px) { .video-link { padding-top: auto; }
   .social { padding-top: 50px; }
   .text-encabezado .display-4 { margin-top: 5rem; font-size: 2.5rem; }
-  .conozca-moquegua ul li .eleccion h4 { font-size: 1rem; } }
+  .conozca-moquegua ul li .eleccion h4 { font-size: 1rem; }
+  ul.timeline:before { left: 40px; }
+  ul.timeline > li > .timeline-panel { width: calc(100% - 90px); width: -moz-calc(100% - 90px); width: -webkit-calc(100% - 90px); }
+  ul.timeline > li > .timeline-badge { left: 15px; margin-left: 0; top: 16px; }
+  ul.timeline > li > .timeline-panel { float: right; }
+  ul.timeline > li > .timeline-panel:before { border-left-width: 0; border-right-width: 15px; left: -15px; right: auto; }
+  ul.timeline > li > .timeline-panel:after { border-left-width: 0; border-right-width: 14px; left: -14px; right: auto; } }
 
 @media (max-width: 415px) { .social .divider-2 { display: none; }
   .text-encabezado .display-4 { margin-top: 5rem; font-size: 1.5rem; }

@@ -743,7 +743,7 @@ ul.thumbnails {
     color: $principal;
 }
 
-.page-header h3 {
+.page-header h2 {
     line-height: 0.88rem;
     color: #000;
 }
@@ -787,6 +787,200 @@ ul.thumbnails {
 
 .internas .galeria img:hover {
     filter: none;
+}
+
+.internas .mapa {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.internas .mapa #map {
+    //position: absolute;
+    left: 0px;
+    // top: 0px;
+    z-index: 188;
+    width: 100%;
+    height: 700px;
+}
+
+.internas .mapa .page-footer {
+    background: #f9f9f9;
+    margin: 1rem -40px 15px;
+    padding: 20px 40px;
+    border-bottom: 4px solid $secundario;
+    color: $principal;
+}
+
+.internas .mapa .page-footer h2 {
+    line-height: 0.88rem;
+    color: #000;
+}
+
+//fechas
+.internas .linetime #timeline {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}
+
+.internas .linetime #timeline:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin: 0 0 0 -1px;
+    width: 2px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.internas .linetime #timeline article {
+    width: 100%;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.internas .linetime #timeline article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.internas .linetime #timeline article div.inner {
+    width: 40%;
+    float: left;
+    margin: 5px 0 0 0;
+    border-radius: 6px;
+}
+
+.internas .linetime #timeline article div.inner span.date {
+    display: block;
+    width: 60px;
+    height: 50px;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin: 0 0 0 -32px;
+    border-radius: 100%;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: #25303B;
+    color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 0 7px #25303B;
+}
+
+.internas .linetime #timeline article div.inner span.date span {
+    display: block;
+    text-align: center;
+}
+
+.internas .linetime#timeline article div.inner span.date span.day {
+    font-size: 10px;
+}
+
+.internas .linetime#timeline article div.inner span.date span.month {
+    font-size: 18px;
+}
+
+.internas .linetime#timeline article div.inner span.date span.year {
+    font-size: 10px;
+}
+
+.internas .linetime#timeline article div.inner h2 {
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+}
+
+.internas .linetime#timeline article div.inner h2:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: rotate(-45deg);
+}
+
+.internas .linetime#timeline article div.inner p {
+    padding: 15px;
+    margin: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #656565;
+    border-radius: 0 0 6px 6px;
+}
+
+.internas .linetime #timeline article:nth-child(2n+2) div.inner {
+    float: right;
+}
+
+.internas .linetime #timeline article:nth-child(2n+2) div.inner h2:after {
+    left: -5px;
+}
+
+.internas .linetime#timeline article:nth-child(1) div.inner h2 {
+    background: #e74c3c;
+}
+
+.internas .linetime#timeline article:nth-child(1) div.inner h2:after {
+    background: #e74c3c;
+}
+
+.internas .linetime#timeline article:nth-child(2) div.inner h2 {
+    background: #2ecc71;
+}
+
+.internas .linetime#timeline article:nth-child(2) div.inner h2:after {
+    background: #2ecc71;
+}
+
+.internas .linetime#timeline article:nth-child(3) div.inner h2 {
+    background: #e67e22;
+}
+
+.internas .linetime#timeline article:nth-child(3) div.inner h2:after {
+    background: #e67e22;
+}
+
+.internas .linetime#timeline article:nth-child(4) div.inner h2 {
+    background: #1abc9c;
+}
+
+.internas .linetime#timeline article:nth-child(4) div.inner h2:after {
+    background: #1abc9c;
+}
+
+.internas .linetime#timeline article:nth-child(5) div.inner h2 {
+    background: #9b59b6;
+}
+
+.internas .linetime#timeline article:nth-child(5) div.inner h2:after {
+    background: #9b59b6;
 }
 
 
@@ -966,6 +1160,35 @@ ul.thumbnails {
     }
     .conozca-moquegua ul li .eleccion h4 {
         font-size: 1rem;
+    }
+    //fecha
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
     }
 }
 
