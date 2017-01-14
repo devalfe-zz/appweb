@@ -1052,6 +1052,17 @@ ul.thumbnails {
   -ms-flex-direction: column;
   flex-direction: column; }
 
+.internas .food .card {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.internas .food .card .card-img-top {
+  width: 100%; }
+
 /*******************************
 *** media query pantalla 768 ***
 *******************************/

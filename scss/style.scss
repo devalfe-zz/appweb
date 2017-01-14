@@ -987,12 +987,12 @@ ul.thumbnails {
     background: #9b59b6;
 }
 
-
 .timeline {
     list-style: none;
     position: relative;
     padding: 20px 0px;
 }
+
 .timeline::before {
     top: 0px;
     bottom: 0px;
@@ -1003,26 +1003,32 @@ ul.thumbnails {
     margin-left: -1.5px;
     background-color: #F1780D;
 }
+
 .timeline > li {
     margin-bottom: 20px;
     position: relative;
 }
+
 .timeline > li::before,
 .timeline > li::after {
     content: " ";
     display: table;
 }
+
 .timeline > li::after {
     clear: both;
 }
+
 .timeline > li::before,
 .timeline > li::after {
     content: " ";
     display: table;
 }
+
 .timeline > li::after {
     clear: both;
 }
+
 .timeline > li > .timeline-panel {
     width: 35%;
     float: left;
@@ -1032,6 +1038,7 @@ ul.thumbnails {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.172549) 0px 1px 6px;
 }
+
 .timeline > li > .timeline-panel::before {
     position: absolute;
     top: 26px;
@@ -1042,6 +1049,7 @@ ul.thumbnails {
     border-color: transparent rgb(204, 204, 204);
     content: " ";
 }
+
 .timeline > li > .timeline-panel::after {
     position: absolute;
     top: 27px;
@@ -1052,6 +1060,7 @@ ul.thumbnails {
     border-color: transparent rgb(255, 255, 255);
     content: " ";
 }
+
 .timeline > li > .timeline-badge {
     width: 85px;
     height: 85px;
@@ -1069,69 +1078,89 @@ ul.thumbnails {
     color: rgb(255, 255, 255);
     background-color: rgb(231, 76, 60);
 }
+
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
 }
+
 .timeline > li.timeline-inverted > .timeline-panel::before {
     border-left-width: 0px;
     border-right-width: 15px;
     left: -15px;
     right: auto;
 }
+
 .timeline > li.timeline-inverted > .timeline-panel::after {
     border-left-width: 0px;
     border-right-width: 14px;
     left: -14px;
     right: auto;
 }
+
 .timeline-badge.primary {
     background-color: rgb(46, 109, 164) !important;
 }
+
 .timeline-badge.success {
     background-color: rgb(63, 144, 63) !important;
 }
+
 .timeline-badge.danger {
     background-color: rgb(231, 76, 60) !important;
 }
+
 .timeline-badge.success1 {
     background-color: #1abc9c !important;
 }
+
 .timeline-badge.warning {
     background-color: rgb(240, 173, 78) !important;
 }
+
 .timeline-badge.info {
     background-color: rgb(91, 192, 222) !important;
 }
+
 .timeline-badge.warning1 {
     background-color: #e67e22 !important;
 }
+
 .timeline-badge.info1 {
     background: #9b59b6 !important;
 }
+
 .timeline-panel.primary {
     background-color: rgb(46, 109, 164) !important;
 }
+
 .timeline-panel.success {
     background-color: rgb(63, 144, 63) !important;
 }
+
 .timeline-panel.success1 {
     background-color: #1abc9c !important;
 }
+
 .timeline-panel.warning {
     background-color: rgb(240, 173, 78) !important;
 }
+
 .timeline-panel.warning1 {
     background-color: #e67e22 !important;
 }
+
 .timeline-panel.danger {
     background-color: rgb(231, 76, 60) !important;
 }
+
 .timeline-panel.info {
     background-color: rgb(91, 192, 222) !important;
 }
+
 .timeline-panel.info1 {
     background: #9b59b6 !important;
 }
+
 .timeline-title {
     padding: 15px;
     margin: 0px;
@@ -1139,6 +1168,7 @@ ul.thumbnails {
     border-radius: 6px 6px 0px 0px;
     position: relative;
 }
+
 .timeline-body > p,
 .timeline-body > ul {
     padding: 20px;
@@ -1149,15 +1179,28 @@ ul.thumbnails {
     border: 1.5px solid rgb(212, 212, 212);
     background: rgb(255, 255, 255);
 }
+
 .timeline-body > p + p {
     margin-top: 5px;
 }
+
 .internas .timeline .timeline-badge span.date span.day {
     font-size: 0.9rem;
 }
+
 .internas .timeline .timeline-badge .date {
     display: flex;
     flex-direction: column;
+}
+
+//----food
+.internas .food .card {
+    display: flex;
+    flex-direction: column;
+}
+
+.internas .food .card .card-img-top {
+    width: 100%;
 }
 
 
