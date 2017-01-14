@@ -50,10 +50,13 @@ h5 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
-.encabezado .logo img {
-  width: 50px;
-  height: auto;
-  margin-bottom: auto; }
+.encabezado .logo {
+  width: 62px;
+  height: auto; }
+
+.encabezado .moque {
+  width: 220px;
+  height: auto; }
 
 .bienvenidos .logo-moque img {
   width: 35%;
@@ -1061,7 +1064,13 @@ ul.thumbnails {
   flex-direction: column; }
 
 .internas .food .card .card-img-top {
-  width: 100%; }
+  width: 100%;
+  height: 210px; }
+
+.internas .food article {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 /*******************************
 *** media query pantalla 768 ***

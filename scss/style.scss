@@ -54,10 +54,16 @@ h5 {
     flex-wrap: wrap;
 }
 
-.encabezado .logo img {
-    width: 50px;
+.encabezado .logo {
+    width: 62px;
     height: auto;
-    margin-bottom: auto;
+    // margin-bottom: auto;
+}
+
+.encabezado .moque {
+    width: 220px;
+    height: auto;
+    // margin-bottom: auto;
 }
 
 .bienvenidos .logo-moque img {
@@ -1193,7 +1199,7 @@ ul.thumbnails {
     flex-direction: column;
 }
 
-//----food
+//----food---------------------
 .internas .food .card {
     display: flex;
     flex-direction: column;
@@ -1201,6 +1207,11 @@ ul.thumbnails {
 
 .internas .food .card .card-img-top {
     width: 100%;
+    height: 210px
+}
+
+.internas .food article {
+    display: flex;
 }
 
 
