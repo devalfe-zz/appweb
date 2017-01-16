@@ -55,7 +55,7 @@ h5 {
 }
 
 .encabezado .logo {
-    width: 62px;
+    width: 55px;
     height: auto;
     // margin-bottom: auto;
 }
@@ -1214,6 +1214,58 @@ ul.thumbnails {
     display: flex;
 }
 
+//------atractivos-----------------------
+.atractivos .carousel .carousel {
+    width: 600px;
+}
+
+.atractivos .carousel .carousel-indicators {
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    //width: 100%;
+}
+
+.atractivos .img-fluid {
+    width: 600px;
+    height: 350px;
+}
+
+.atractivos .row {
+    padding-bottom: 1rem;
+}
+
+.atractivos .carousel .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 100px;
+}
+
+
+/* Indicators images style */
+
+.atractivos .carousel .carousel-indicators img {
+    border: 2px solid #fff;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 100px;
+    opacity: 0.5;
+}
+
+
+/* Indicators active image style */
+
+.atractivos #carouselAtractivo .carousel-indicators .active img {
+    border: 2px solid $principal;
+}
+
 
 /*******************************
 *** media query pantalla 768 ***
@@ -1293,7 +1345,7 @@ ul.thumbnails {
     .internas .lista-servicios .col-md-4 {
         // display: flex;
     }
-    .nternas .lista-servicios .item-servicios {
+    .internas .lista-servicios .item-servicios {
         display: flex;
         flex-direction: column;
     }
@@ -1374,7 +1426,7 @@ ul.thumbnails {
         width: 25%;
     }
     .social {
-        padding-top: 80px;
+        padding-top: 180px;
     }
 }
 
