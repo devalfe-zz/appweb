@@ -34,10 +34,10 @@ h5 {
 
 .encabezado.fondo-menu {
   background: #F1780D;
-  padding: .7rem 0; }
+  padding: .6rem 0; }
 
 .encabezado.fondo-menu #menu-principal ul li a {
-  color: #f6de73; }
+  color: #fff; }
 
 .encabezado .container {
   display: -webkit-flex;
@@ -51,7 +51,7 @@ h5 {
   flex-wrap: wrap; }
 
 .encabezado .logo {
-  width: 55px;
+  width: 50px;
   height: auto; }
 
 .encabezado .moque {
@@ -129,12 +129,12 @@ h5 {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
-  border-top: 1px solid #F1A50D;
+  border-top: 1px solid #fff;
   text-decoration: none; }
 
 #menu-principal ul li a:hover,
 #menu-principal ul li.active a {
-  color: #F1A50D; }
+  color: #F1780D; }
 
 .text-encabezado {
   -webkit-flex: 1 1 auto;
@@ -274,11 +274,6 @@ h5 {
 .capital {
   background: #F1780D;
   color: #fff; }
-
-.capital img {
-  width: 85%;
-  margin: 0 auto;
-  display: block; }
 
 .capital img {
   width: 85%;
@@ -489,11 +484,10 @@ h5 {
   padding-bottom: .5rem; }
 
 .pie-pagina .container {
-  padding-top: 1rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 1rem; }
 
 .footer-container {
-  padding: 30px 15px;
+  padding: 20px 15px;
   background: #111;
   color: #fff; }
 
@@ -1112,6 +1106,55 @@ ul.thumbnails {
   border: 2px solid #F1780D; }
 
 /*******************************
+*** seccion noticias				 ***
+*******************************/
+.noticia {
+  background: #F1780D;
+  color: #fff; }
+
+.big-btn {
+  padding: 10px 0px 11px 0px;
+  width: 215px;
+  margin-top: 5px; }
+
+.big-btn i {
+  font-size: 65px;
+  margin-right: 0px !important; }
+
+.big-btn strong {
+  font-size: 25px;
+  text-shadow: 1px 2px 0px #34659B;
+  color: #fff;
+  line-height: 24px; }
+
+.big-btn .btn-text {
+  margin-top: 6px; }
+
+.big-btn small {
+  font-size: 80%; }
+
+.android-btn {
+  width: 240px;
+  padding: 13px 17px 13px 0px;
+  background-color: #F1780D;
+  border-color: #F1A50D; }
+
+.android-btn:hover {
+  background-color: #272727; }
+
+.android-btn i {
+  font-size: 55px; }
+
+.android-btn .btn-text {
+  margin-top: 10px; }
+
+.android-btn strong {
+  font-size: 25px;
+  text-shadow: none;
+  color: #fff;
+  line-height: 24px; }
+
+/*******************************
 *** media query pantalla 768 ***
 *******************************/
 @media (min-width: 768px) {
@@ -1139,7 +1182,7 @@ ul.thumbnails {
     transition: all .5s ease; }
   #menu-principal ul li.active a,
   #menu-principal ul li a:hover {
-    color: #F1A50D;
+    color: #F1780D;
     border-bottom: 5px solid; }
   .boton-buscar {
     margin-left: 1rem;

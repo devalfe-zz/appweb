@@ -41,11 +41,11 @@ h5 {
 
 .encabezado.fondo-menu {
     background: $principal;
-    padding: .7rem 0;
+    padding: .6rem 0;
 }
 
 .encabezado.fondo-menu #menu-principal ul li a {
-    color: #f6de73;
+    color: #fff;
 }
 
 .encabezado .container {
@@ -55,7 +55,7 @@ h5 {
 }
 
 .encabezado .logo {
-    width: 55px;
+    width: 50px;
     height: auto;
     // margin-bottom: auto;
 }
@@ -138,13 +138,13 @@ h5 {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    border-top: 1px solid $secundario;
+    border-top: 1px solid #fff;
     text-decoration: none;
 }
 
 #menu-principal ul li a:hover,
 #menu-principal ul li.active a {
-    color: $secundario;
+    color: $principal;
 }
 
 .text-encabezado {
@@ -288,12 +288,6 @@ h5 {
 .capital {
     background: $principal;
     color: #fff;
-}
-
-.capital img {
-    width: 85%;
-    margin: 0 auto;
-    display: block;
 }
 
 .capital img {
@@ -522,12 +516,11 @@ h5 {
 }
 
 .pie-pagina .container {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .footer-container {
-    padding: 30px 15px;
+    padding: 20px 15px;
     background: #111;
     color: #fff;
 }
@@ -1268,6 +1261,69 @@ ul.thumbnails {
 
 
 /*******************************
+*** seccion noticias				 ***
+*******************************/
+
+.noticia {
+    background: $principal;
+    color: #fff;
+    // padding: 1rem 0;
+}
+
+.big-btn {
+    padding: 10px 0px 11px 0px;
+    width: 215px;
+    margin-top: 5px;
+}
+
+.big-btn i {
+    font-size: 65px;
+    margin-right: 0px !important;
+}
+
+.big-btn strong {
+    font-size: 25px;
+    text-shadow: 1px 2px 0px #34659B;
+    color: #fff;
+    line-height: 24px;
+}
+
+.big-btn .btn-text {
+    margin-top: 6px;
+}
+
+.big-btn small {
+    font-size: 80%;
+}
+
+.android-btn {
+    width: 240px;
+    padding: 13px 17px 13px 0px;
+    background-color: $principal;
+    border-color: $secundario;
+}
+
+.android-btn:hover {
+    background-color: #272727;
+}
+
+.android-btn i {
+    font-size: 55px;
+}
+
+.android-btn .btn-text {
+    margin-top: 10px;
+}
+
+.android-btn strong {
+    font-size: 25px;
+    text-shadow: none;
+    color: #fff;
+    line-height: 24px;
+}
+
+
+/*******************************
 *** media query pantalla 768 ***
 *******************************/
 
@@ -1294,7 +1350,7 @@ ul.thumbnails {
     #menu-principal ul li.active a,
     #menu-principal ul li a:hover,
     {
-        color: $secundario;
+        color: $principal;
         border-bottom: 5px solid;
     }
     .boton-buscar {
