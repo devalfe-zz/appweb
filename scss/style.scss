@@ -7,13 +7,11 @@ $secundario:#F1A50D;
 html {
     font-size: 15px;
 }
-
 body {
     font-family: 'Bree W01 Light', serif;
     color: $text;
     font-size: 15px;
 }
-
 body h1,
 h2,
 h3,
@@ -21,7 +19,6 @@ h4,
 h5 {
     font-family: 'Bree-Regular', serif;
 }
-
 .bienvenidos {
     background: url("../images/fondo-principal.jpg") no-repeat center top;
     color: #fff;
@@ -31,46 +28,38 @@ h5 {
     display: flex;
     flex-direction: column;
 }
-
 .encabezado {
     background: $text;
     color: #fff;
     padding: .5rem 0;
     transition: all .5s ease;
 }
-
 .encabezado.fondo-menu {
     background: $principal;
     padding: .6rem 0;
 }
-
 .encabezado.fondo-menu #menu-principal ul li a {
     color: #fff;
 }
-
 .encabezado .container {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
-
 .encabezado .logo {
     width: 50px;
     height: auto;
     // margin-bottom: auto;
 }
-
 .encabezado .moque {
     width: 220px;
     height: auto;
     // margin-bottom: auto;
 }
-
 .bienvenidos .logo-moque img {
     width: 35%;
     height: auto;
 }
-
 .boton-buscar,
 .boton-menu {
     border: 0;
@@ -80,39 +69,32 @@ h5 {
     background: transparent;
     color: #fff;
 }
-
 .boton-buscar:focus,
 .boton-menu:focus {
     outline: 0;
 }
-
 .boton-buscar {
     margin-left: auto;
     margin-right: .6rem;
 }
-
 .boton-buscar {
     margin-left: auto;
     margin-right: .6rem;
 }
-
 #bloque-buscar {
     flex: 1 1 100%;
 }
-
 .container-bloque-buscar {
     display: flex;
     height: 3rem;
     margin: 1rem 0;
 }
-
 .container-bloque-buscar input[type="text"] {
     border: 0;
     border-radius: 5px 0 0 5px;
     padding: 1rem;
     flex: 1 1 auto;
 }
-
 .container-bloque-buscar input[type="submit"] {
     flex: 0 1 auto;
     border: 0;
@@ -121,17 +103,14 @@ h5 {
     color: #fff;
     padding: 0 1rem;
 }
-
 #menu-principal {
     flex: 1 1 100%;
 }
-
 #menu-principal ul {
     margin: 1rem 0 0;
     list-style: none;
     padding: 0;
 }
-
 #menu-principal ul li a {
     display: block;
     padding: .8rem 0;
@@ -141,22 +120,18 @@ h5 {
     border-top: 1px solid #fff;
     text-decoration: none;
 }
-
 #menu-principal ul li a:hover,
 #menu-principal ul li.active a {
     color: $principal;
 }
-
 .text-encabezado {
     flex: 1 1 auto;
     align-items: center;
     display: flex;
 }
-
 .text-encabezado .display-4 {
     margin-top: 1.5rem;
 }
-
 .btn-primary {
     color: #fff;
     background-color: $principal;
@@ -164,7 +139,6 @@ h5 {
     margin-top: 1rem;
     transition: all .5s ease;
 }
-
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
@@ -172,14 +146,12 @@ h5 {
     border-color: transparent;
 }
 
-
 /***** Modal *****/
 
 .text-encabezado .modal-backdrop.in {
     filter: alpha(opacity=7);
     opacity: 0.7;
 }
-
 .text-encabezado .modal-content {
     background: none;
     border: 0;
@@ -188,21 +160,17 @@ h5 {
     border: 0;
     border-radius: 0;
 }
-
 .text-encabezado .modal-body {
     padding: 0 25px 25px 25px;
 }
-
 .text-encabezado .modal-header {
     padding: 25px 25px 15px 25px;
     text-align: right;
 }
-
 .text-encabezado .modal-header,
 .text-encabezado .modal-footer {
     border: 0;
 }
-
 .text-encabezado .modal-header .close {
     float: none;
     margin: 0;
@@ -212,32 +180,26 @@ h5 {
     text-shadow: none;
     opacity: 1;
 }
-
 .video-link {
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
-
 .video-link a {
     text-decoration: none;
 }
-
 .video-link .video-link-text {
     color: #fff;
 }
-
 .video-link .video-link-text:hover,
 .video-link .video-link-text:focus,
 .video-link .video-link-text:active {
     text-decoration: none;
     border-bottom: 1px dotted #fff;
 }
-
 .medium-paragraph {
     font-size: 16px;
     line-height: 32px;
 }
-
 .video-link-icon .fa {
     position: relative;
     display: inline-block;
@@ -253,21 +215,18 @@ h5 {
     line-height: 3rem;
     color: #fff;
 }
-
 .video-link-icon .fa:hover,
 .video-link-icon .fa:focus,
 .video-link-icon .fa:active {
     color: $principal;
     background: #fff;
 }
-
 .flecha a {
     display: inline-block;
     color: #fff;
     font-size: 4rem;
     animation: flecha 2s ease-in-out infinite;
 }
-
 @keyframes flecha {
     from {
         transform: translateY(0);
@@ -280,7 +239,6 @@ h5 {
     }
 }
 
-
 /*******************************
 *** seccion 2				 ***
 *******************************/
@@ -289,13 +247,11 @@ h5 {
     background: $principal;
     color: #fff;
 }
-
 .capital img {
     width: 85%;
     margin: 0 auto;
     display: block;
 }
-
 
 /*******************************
 *** seccion 3				 ***
@@ -306,16 +262,13 @@ h5 {
     margin: 0 auto;
     display: block;
 }
-
 .conozca-moquegua h2 spam {
     color: $principal;
 }
-
 .conozca-moquegua ul,
 .conozca-moquegua ul li {
     list-style: none;
 }
-
 .conozca-moquegua ul li .fa {
     font-size: 2.3rem;
     background: $secundario;
@@ -325,17 +278,14 @@ h5 {
     line-height: 5rem;
     color: #fff;
 }
-
 .conozca-moquegua ul li .eleccion h4 {
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: .5rem;
 }
-
 .conozca-moquegua ul li {
     min-height: 7rem;
 }
-
 
 /*******************************
 *** seccion 4				 ***
@@ -347,25 +297,21 @@ h5 {
     background-attachment: fixed !important;
     color: #fff;
 }
-
 .servicos article {
     display: flex;
     align-items: center;
     margin: 1rem 0;
 }
-
 .servicos img {
     flex: 0 1 60px;
     overflow: hidden;
     margin-right: 1rem;
 }
-
 .servicos h3 {
     margin: 0;
     font-size: 1.5rem;
     flex: 1 1 auto;
 }
-
 .servicos h3 a {
     color: #fff;
     font-size: 1.5rem;
@@ -374,7 +320,6 @@ h5 {
     align-items: center;
     text-decoration: none;
 }
-
 .servicos h3 a::after {
     content: "\f054";
     font-family: FontAwesome;
@@ -385,13 +330,11 @@ h5 {
     left: 0;
     transition: all .5s ease;
 }
-
 .servicos h3 a:hover::after {
     left: -.5rem;
     opacity: 1;
     color: $principal;
 }
-
 
 /*******************************
 *** seccion 4				 ***
@@ -400,38 +343,32 @@ h5 {
 .actividadesa a {
     text-decoration: none;
 }
-
 .actividades a h4 {
     text-decoration: none;
     font-weight: 100;
     text-align: center;
     color: $text;
 }
-
 .actividades .container {
     padding-left: 0;
     padding-right: 0;
 }
-
 .actividades .owl-nav {
     display: flex;
     justify-content: center;
     margin: .5rem 0;
 }
-
 .actividades .owl-prev,
 .actividades .owl-next {
     font-size: 3rem;
     margin: 0 .5rem;
     color: $principal;
 }
-
 .actividades .owl-prev:hover,
 .actividades .owl-next:hover {
     color: $secundario;
     transition: all .5s ease;
 }
-
 
 /*******************************
 *** seccion 4				 ***
@@ -442,7 +379,6 @@ h5 {
     color: #fff;
     text-align: center;
 }
-
 .pie-pagina .social {
     display: flex;
     justify-content: center;
@@ -450,7 +386,6 @@ h5 {
     margin: 0;
     padding: 0;
 }
-
 .pie-pagina .social a {
     color: #fff;
     font-size: 2rem;
@@ -459,14 +394,12 @@ h5 {
     vertical-align: middle;
     transition: all .5s ease;
 }
-
 .pie-pagina .social a:hover,
 .pie-pagina .social a:focus {
     opacity: 1;
     outline: 0;
     color: #fff;
 }
-
 .social .divider-2 {
     display: inline-block;
     width: 1px;
@@ -475,7 +408,6 @@ h5 {
     background: rgba(255, 255, 255, 0.4);
     vertical-align: middle;
 }
-
 .ir-arriba {
     position: fixed;
     bottom: 1rem;
@@ -487,48 +419,39 @@ h5 {
     line-height: 0;
     transition: all .5s ease;
 }
-
 .ir-arriba:hover,
 .ir-arriba:focus {
     outline: 0;
     text-decoration: none;
     color: $principal;
 }
-
 .servicos .container {
     padding-top: 1rem;
     padding-bottom: .5rem;
 }
-
 .capital .container {
     padding-top: 1rem;
     padding-bottom: .5rem;
 }
-
 .conozca-moquegua .container {
     padding-top: 1rem;
     padding-bottom: .5rem;
 }
-
 .actividades .container {
     padding-top: 1rem;
     padding-bottom: .5rem;
 }
-
 .pie-pagina .container {
     padding-bottom: 1rem;
 }
-
 .footer-container {
     padding: 20px 15px;
     background: #111;
     color: #fff;
 }
-
 .footer-container img {
     height: 70px;
 }
-
 
 /*******************************
 ***     nosotros            ***
@@ -537,39 +460,31 @@ h5 {
 .internas .bienvenidos {
     height: 50vh;
 }
-
 .ruta .bar {
     padding: 1rem;
 }
-
 .internas .ruta {
     background: $principal;
     color: #fff;
 }
-
 .internas .ruta a {
     color: #fff;
     text-decoration: underline;
 }
-
 .internas .ruta a:hover {
     text-decoration: none;
 }
-
 .internas .card .card-header {
     //font-size: 1.2rem;
     background-color: $principal;
 }
-
 .card-header {
     padding: 0;
 }
-
 .nosotros img {
     padding: 40 0 20 0;
     display: block;
 }
-
 .internas .card .card-header a {
     background: $principal;
     color: #fff;
@@ -579,12 +494,10 @@ h5 {
     padding: 1rem;
     transition: all .5s ease;
 }
-
 .internas .card .card-header a:hover {
     background: $secundario;
     color: #fff;
 }
-
 
 /*******************************
 ***     servicios            ***
@@ -593,7 +506,6 @@ h5 {
 .internas .lista-servicios {
     //background: $secundario;
 }
-
 .internas .lista-servicios .item-servicios {
     background: #fff;
     text-align: center;
@@ -604,40 +516,32 @@ h5 {
     margin-top: 1rem;
     width: 100%
 }
-
 .internas .lista-servicios .item-servicios .fa {
     font-size: 6rem;
     color: $principal;
     margin-bottom: 1rem;
     transition: all 1s ease;
 }
-
 .internas .lista-servicios .item-servicios:hover .fa {
     transform: rotateY(360deg);
     transform-style: preserve-3d;
 }
-
 .internas .lista-servicios img {
     max-width: 100%;
 }
-
 .internas .lista-servicios a {
     transition: all 150ms ease;
 }
-
 .internas .lista-servicios a:hover {
     opacity: 0.6;
     text-decoration: none;
 }
-
 .internas .lista-servicios img {
     max-width: 100%;
 }
-
 .internas .lista-servicios .carousel-item {
     //  display: flex;
 }
-
 .internas .turismo .thumbnails {
     list-style-type: none;
     padding: 0;
@@ -647,12 +551,10 @@ h5 {
     max-width: 100%;
     width: 100%;
 }
-
 .internas .turismo .item-servicios {
     // display: flex;
     //flex-direction: column;
 }
-
 .internas .turismo .thumbnails .col-sm-4 {
     background-color: brown;
     height: auto;
@@ -664,17 +566,14 @@ h5 {
     text-align: center;
     margin: 5px 2px;
 }
-
 ul.thumbnails {
     margin-bottom: 1rem;
     list-style: none;
     padding-left: 0;
 }
-
 .turismo .card-block {
     background-color: bisque;
 }
-
 .box {
     background: #fff;
     transition: all 0.2s ease;
@@ -686,18 +585,15 @@ ul.thumbnails {
     display: flex;
     height: 30rem;
 }
-
 .box:hover {
     border: 2px solid $principal;
 }
-
 .box span.box-title {
     color: #fff;
     font-size: 24px;
     font-weight: 300;
     text-transform: uppercase;
 }
-
 .box .box-content {
     padding: 16px;
     border-radius: 0 0 2px 2px;
@@ -706,31 +602,26 @@ ul.thumbnails {
     display: flex;
     flex-direction: column;
 }
-
 .box .box-content p {
     color: #515c66;
     text-transform: none;
 }
-
 .turismo .owl-nav {
     display: flex;
     justify-content: flex-end;
     margin: .5rem 0;
 }
-
 .turismo .owl-prev,
 .turismo .owl-next {
     font-size: 3rem;
     margin: 0 .5rem;
     color: $principal;
 }
-
 .turismo .owl-prev:hover,
 .turismo .owl-next:hover {
     color: $secundario;
     transition: all .5s ease;
 }
-
 
 /* Page Header */
 
@@ -741,12 +632,10 @@ ul.thumbnails {
     border-top: 4px solid $secundario;
     color: $principal;
 }
-
 .page-header h2 {
     line-height: 0.88rem;
     color: #000;
 }
-
 
 /*******************************
 *** galeria ***
@@ -758,16 +647,13 @@ ul.thumbnails {
     //width: 85%;
     max-height: 50%;
 }
-
 .internas section {
     display: flex;
     justify-content: center;
 }
-
 #gallery {
     //  height: 100%;
 }
-
 .internas .slider {
     width: auto;
     height: 100vh;
@@ -775,7 +661,6 @@ ul.thumbnails {
     overflow: hidden;
     z-index: 100;
 }
-
 .internas .galeria img {
     filter: gray;
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
@@ -783,23 +668,19 @@ ul.thumbnails {
     height: 250px;
     width: 250px;
 }
-
 .internas .galeria img:hover {
     filter: none;
 }
-
 .internas .mapa {
     width: 80%;
     margin: 0 auto;
 }
-
 .map-responsive {
     overflow: hidden;
     padding-bottom: 50%;
     position: relative;
     height: 0;
 }
-
 .map-responsive iframe {
     left: 0;
     top: 0;
@@ -807,11 +688,9 @@ ul.thumbnails {
     width: 100%;
     position: absolute;
 }
-
 .internas .mapa .container .row {
     display: block;
 }
-
 .internas .mapa #map {
     //position: absolute;
     left: 0px;
@@ -820,7 +699,6 @@ ul.thumbnails {
     width: 100%;
     height: 700px;
 }
-
 .internas .mapa .page-footer {
     background: #f9f9f9;
     margin: 1rem -40px 15px;
@@ -828,19 +706,16 @@ ul.thumbnails {
     border-bottom: 4px solid $secundario;
     color: $principal;
 }
-
 .internas .mapa .page-footer h2 {
     line-height: 0.88rem;
     color: #000;
 }
-
 //fechas
 .internas .linetime #timeline {
     width: 80%;
     margin: 20px auto;
     position: relative;
 }
-
 .internas .linetime #timeline:before {
     content: '';
     display: block;
@@ -852,26 +727,22 @@ ul.thumbnails {
     height: 100%;
     background: rgba(255, 255, 255, 0.2);
 }
-
 .internas .linetime #timeline article {
     width: 100%;
     margin: 0 0 20px 0;
     position: relative;
 }
-
 .internas .linetime #timeline article:after {
     content: '';
     display: block;
     clear: both;
 }
-
 .internas .linetime #timeline article div.inner {
     width: 40%;
     float: left;
     margin: 5px 0 0 0;
     border-radius: 6px;
 }
-
 .internas .linetime #timeline article div.inner span.date {
     display: block;
     width: 60px;
@@ -890,24 +761,19 @@ ul.thumbnails {
     border: 2px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 0 0 7px #25303B;
 }
-
 .internas .linetime #timeline article div.inner span.date span {
     display: block;
     text-align: center;
 }
-
 .internas .linetime#timeline article div.inner span.date span.day {
     font-size: 10px;
 }
-
 .internas .linetime#timeline article div.inner span.date span.month {
     font-size: 18px;
 }
-
 .internas .linetime#timeline article div.inner span.date span.year {
     font-size: 10px;
 }
-
 .internas .linetime#timeline article div.inner h2 {
     padding: 15px;
     margin: 0;
@@ -918,7 +784,6 @@ ul.thumbnails {
     border-radius: 6px 6px 0 0;
     position: relative;
 }
-
 .internas .linetime#timeline article div.inner h2:after {
     content: '';
     position: absolute;
@@ -928,7 +793,6 @@ ul.thumbnails {
     height: 10px;
     -webkit-transform: rotate(-45deg);
 }
-
 .internas .linetime#timeline article div.inner p {
     padding: 15px;
     margin: 0;
@@ -937,61 +801,47 @@ ul.thumbnails {
     color: #656565;
     border-radius: 0 0 6px 6px;
 }
-
 .internas .linetime #timeline article:nth-child(2n+2) div.inner {
     float: right;
 }
-
 .internas .linetime #timeline article:nth-child(2n+2) div.inner h2:after {
     left: -5px;
 }
-
 .internas .linetime#timeline article:nth-child(1) div.inner h2 {
     background: #e74c3c;
 }
-
 .internas .linetime#timeline article:nth-child(1) div.inner h2:after {
     background: #e74c3c;
 }
-
 .internas .linetime#timeline article:nth-child(2) div.inner h2 {
     background: #2ecc71;
 }
-
 .internas .linetime#timeline article:nth-child(2) div.inner h2:after {
     background: #2ecc71;
 }
-
 .internas .linetime#timeline article:nth-child(3) div.inner h2 {
     background: #e67e22;
 }
-
 .internas .linetime#timeline article:nth-child(3) div.inner h2:after {
     background: #e67e22;
 }
-
 .internas .linetime#timeline article:nth-child(4) div.inner h2 {
     background: #1abc9c;
 }
-
 .internas .linetime#timeline article:nth-child(4) div.inner h2:after {
     background: #1abc9c;
 }
-
 .internas .linetime#timeline article:nth-child(5) div.inner h2 {
     background: #9b59b6;
 }
-
 .internas .linetime#timeline article:nth-child(5) div.inner h2:after {
     background: #9b59b6;
 }
-
 .timeline {
     list-style: none;
     position: relative;
     padding: 20px 0px;
 }
-
 .timeline::before {
     top: 0px;
     bottom: 0px;
@@ -1002,32 +852,26 @@ ul.thumbnails {
     margin-left: -1.5px;
     background-color: #F1780D;
 }
-
 .timeline > li {
     margin-bottom: 20px;
     position: relative;
 }
-
 .timeline > li::before,
 .timeline > li::after {
     content: " ";
     display: table;
 }
-
 .timeline > li::after {
     clear: both;
 }
-
 .timeline > li::before,
 .timeline > li::after {
     content: " ";
     display: table;
 }
-
 .timeline > li::after {
     clear: both;
 }
-
 .timeline > li > .timeline-panel {
     width: 35%;
     float: left;
@@ -1037,7 +881,6 @@ ul.thumbnails {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.172549) 0px 1px 6px;
 }
-
 .timeline > li > .timeline-panel::before {
     position: absolute;
     top: 26px;
@@ -1048,7 +891,6 @@ ul.thumbnails {
     border-color: transparent rgb(204, 204, 204);
     content: " ";
 }
-
 .timeline > li > .timeline-panel::after {
     position: absolute;
     top: 27px;
@@ -1059,7 +901,6 @@ ul.thumbnails {
     border-color: transparent rgb(255, 255, 255);
     content: " ";
 }
-
 .timeline > li > .timeline-badge {
     width: 85px;
     height: 85px;
@@ -1077,89 +918,69 @@ ul.thumbnails {
     color: rgb(255, 255, 255);
     background-color: rgb(231, 76, 60);
 }
-
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
 }
-
 .timeline > li.timeline-inverted > .timeline-panel::before {
     border-left-width: 0px;
     border-right-width: 15px;
     left: -15px;
     right: auto;
 }
-
 .timeline > li.timeline-inverted > .timeline-panel::after {
     border-left-width: 0px;
     border-right-width: 14px;
     left: -14px;
     right: auto;
 }
-
 .timeline-badge.primary {
     background-color: rgb(46, 109, 164) !important;
 }
-
 .timeline-badge.success {
     background-color: rgb(63, 144, 63) !important;
 }
-
 .timeline-badge.danger {
     background-color: rgb(231, 76, 60) !important;
 }
-
 .timeline-badge.success1 {
     background-color: #1abc9c !important;
 }
-
 .timeline-badge.warning {
     background-color: rgb(240, 173, 78) !important;
 }
-
 .timeline-badge.info {
     background-color: rgb(91, 192, 222) !important;
 }
-
 .timeline-badge.warning1 {
     background-color: #e67e22 !important;
 }
-
 .timeline-badge.info1 {
     background: #9b59b6 !important;
 }
-
 .timeline-panel.primary {
     background-color: rgb(46, 109, 164) !important;
 }
-
 .timeline-panel.success {
     background-color: rgb(63, 144, 63) !important;
 }
-
 .timeline-panel.success1 {
     background-color: #1abc9c !important;
 }
-
 .timeline-panel.warning {
     background-color: rgb(240, 173, 78) !important;
 }
-
 .timeline-panel.warning1 {
     background-color: #e67e22 !important;
 }
-
 .timeline-panel.danger {
     background-color: rgb(231, 76, 60) !important;
 }
-
 .timeline-panel.info {
     background-color: rgb(91, 192, 222) !important;
 }
-
 .timeline-panel.info1 {
     background: #9b59b6 !important;
 }
-
 .timeline-title {
     padding: 15px;
     margin: 0px;
@@ -1167,7 +988,6 @@ ul.thumbnails {
     border-radius: 6px 6px 0px 0px;
     position: relative;
 }
-
 .timeline-body > p,
 .timeline-body > ul {
     padding: 20px;
@@ -1178,56 +998,45 @@ ul.thumbnails {
     border: 1.5px solid rgb(212, 212, 212);
     background: rgb(255, 255, 255);
 }
-
 .timeline-body > p + p {
     margin-top: 5px;
 }
-
 .internas .timeline .timeline-badge span.date span.day {
     font-size: 0.9rem;
 }
-
 .internas .timeline .timeline-badge .date {
     display: flex;
     flex-direction: column;
 }
-
 //----food---------------------
 .internas .food .card {
     display: flex;
     flex-direction: column;
 }
-
 .internas .food .card .card-img-top {
     width: 100%;
     height: 210px
 }
-
 .internas .food article {
     display: flex;
 }
-
 //------atractivos-----------------------
 .atractivos .carousel .carousel {
     width: 600px;
 }
-
 .atractivos .carousel .carousel-indicators {
     bottom: 0;
     left: 0;
     margin-left: 10px;
     //width: 100%;
 }
-
 .atractivos .img-fluid {
     width: 600px;
     height: 350px;
 }
-
 .atractivos .row {
     padding-bottom: 1rem;
 }
-
 .atractivos .carousel .carousel-indicators li {
     border: medium none;
     border-radius: 0;
@@ -1240,7 +1049,6 @@ ul.thumbnails {
     width: 100px;
 }
 
-
 /* Indicators images style */
 
 .atractivos .carousel .carousel-indicators img {
@@ -1252,13 +1060,11 @@ ul.thumbnails {
     opacity: 0.5;
 }
 
-
 /* Indicators active image style */
 
 .atractivos #carouselAtractivo .carousel-indicators .active img {
     border: 2px solid $principal;
 }
-
 
 /*******************************
 *** seccion noticias				 ***
@@ -1267,61 +1073,125 @@ ul.thumbnails {
 .noticia {
     background: $principal;
     color: #fff;
-    // padding: 1rem 0;
 }
-
+.noticia #noticias .carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: justify;
+    padding: .2rem 1rem;
+    background: rgba(0, 0, 0, 0.6);
+}
+.noticia .carousel-caption a {
+    color: #fff;
+    text-decoration: none;
+}
+.noticia .list-group {
+    position: absolute;
+    top: 2rem;
+    right: 0;
+}
+.noticia .list-group-item {
+    border-radius: 0px;
+    cursor: pointer;
+}
+.noticia .list-group .active {
+    background-color: $secundario;
+}
+.noticia .shape {
+    border-style: solid;
+    border-width: 0 70px 40px 0;
+    float: right;
+    height: 0px;
+    width: 0px;
+    transform: rotate(360deg);
+}
+.noticia .offer {
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+    overflow: hidden;
+}
+.noticia .offer:hover {
+    transform: rotate scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+.noticia .offer-content p {
+    color: $text;
+}
+.noticia .shape {
+    border-color: rgba(255, 255, 255, 0) #d9534f rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+.noticia .offer-radius {
+    border-radius: 7px;
+}
+.noticia .offer-default {
+    border-color: #999999;
+}
+.noticia .offer-default .shape {
+    border-color: transparent #999999 transparent transparent;
+}
+.noticia .offer-warning {
+    border-color: #f0ad4e;
+}
+.noticia .offer-warning .shape {
+    border-color: transparent #f0ad4e transparent transparent;
+}
+.noticia .shape-text {
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    right: -40px;
+    top: 2px;
+    white-space: nowrap;
+    transform: rotate(30deg);
+}
+.noticia .offer .offer-content {
+    padding: 10px 20px 10px;
+}
 .big-btn {
     padding: 10px 0px 11px 0px;
     width: 215px;
     margin-top: 5px;
 }
-
 .big-btn i {
     font-size: 65px;
     margin-right: 0px !important;
 }
-
 .big-btn strong {
     font-size: 25px;
     text-shadow: 1px 2px 0px #34659B;
     color: #fff;
     line-height: 24px;
 }
-
 .big-btn .btn-text {
     margin-top: 6px;
 }
-
 .big-btn small {
     font-size: 80%;
 }
-
 .android-btn {
     width: 240px;
     padding: 13px 17px 13px 0px;
     background-color: $principal;
     border-color: $secundario;
 }
-
 .android-btn:hover {
     background-color: #272727;
 }
-
 .android-btn i {
     font-size: 55px;
 }
-
 .android-btn .btn-text {
     margin-top: 10px;
 }
-
 .android-btn strong {
     font-size: 25px;
     text-shadow: none;
     color: #fff;
     line-height: 24px;
 }
-
 
 /*******************************
 *** media query pantalla 768 ***
@@ -1430,7 +1300,6 @@ ul.thumbnails {
     }
 }
 
-
 /*******************************
 *** media query pantalla 992 ***
 *******************************/
@@ -1485,7 +1354,6 @@ ul.thumbnails {
         padding-top: 180px;
     }
 }
-
 @media (max-width: 767px) {
     .video-link {
         padding-top: auto;
@@ -1528,7 +1396,6 @@ ul.thumbnails {
         right: auto;
     }
 }
-
 @media (max-width: 415px) {
     .social .divider-2 {
         display: none;
