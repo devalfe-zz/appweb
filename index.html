@@ -28,10 +28,10 @@
     <section class="bienvenidos">
         <header class="encabezado navbar-fixed-top" role="banner" id="encabezado">
             <div class="container">
-                <a href="index.html">
-                    <img src="images/logo.svg" alt="logotipo" class="logo">
-                    <img class="moque hidden-md-down" src="images/o.svg" aria-hidden="true" alt="logo">
-                </a>
+                <a href="index.html" class="logo">
+                    <img src="images/log.svg" alt="escudo"></a>
+                <a href="index.html" class="moque">
+                    <img class="hidden-md-down" src="images/o.svg" alt="lema"></a>
                 <button type="buttom" class="boton-buscar" data-toggle="collapse" data-target="#bloque-buscar" aria-expanded="false">
                     <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
@@ -106,8 +106,51 @@
                     <p class="text-justify">El clima del departamento es templado en la costa y se caracteriza por su uniformidad durante el año, variando la temperatura promedio entre 14°C (agosto) y 25°C (febrero); zona de la costa cercana a la cordillera, presenta un clima desértico y seco que se prolonga hasta la región Andina. En la zona de la sierra el clima es templado en los valles interandinos, en las punas el clima es frío glacial llegando a varios grados bajo cero durante las noches. Las lluvias son escasas en la costa y en las partes bajas de la región andina; en las partes altas las precipitaciones no pasan de los 500 mm anuales.
                     </p>
                 </div>
-                <div class="col-md-5 col-xl-6 flex-middle">
-                    <img src="images/hexa.svg" alt="moquegua" class="wow zoomIn" data-wow-delay=".6s">
+                <div class="col-md-5 col-xl-6 ">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"> <span></span><b>Noticias</b></div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="demo1">
+                                        <li class="news-item">
+                                            <table cellpadding="4">
+                                                <tbody>
+                                                    <tr>
+                                                        <td><img src="images/noticias/n1.jpg" width="60" class="img-fluid"></td>
+                                                        <td>Concejo aprobó declaratoria de emergencia de la provincia Mariscal Nieto por periodo de lluvias <a href="#">Leer mas ...</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class="news-item">
+                                            <table cellpadding="4">
+                                                <tbody>
+                                                    <tr>
+                                                        <td><img src="images/noticias/n2.jpg" width="60" class="img-fluid"></td>
+                                                        <td>Alcalde declaró en sesión permanente plataforma de defensa civil de la provincia Mariscal Nieto <a href="#">Leer mas..</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                        <li class="news-item">
+                                            <table cellpadding="4">
+                                                <tbody>
+                                                    <tr>
+                                                        <td><img src="images/noticias/n3.jpg" width="60" class="img-fluid"></td>
+                                                        <td>Comuna provincial realiza acopio de rocas para posterior enrocado de rio <a href="#">Leer mas...</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--                    <img src="images/hexa.svg" alt="moquegua" class="wow zoomIn" data-wow-delay=".6s">-->
                 </div>
             </div>
         </div>
@@ -121,9 +164,8 @@
                     <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".3s">
                         <i class="fa fa-file-image-o" aria-hidden="true"></i>
                         <div class="eleccion">
-                            <h4>Qué hacer</h4>
-                            <p class="hidden-sm-down">Recorrer Moquegua es un sentimiento profundo. Atrévete a vivirlo.</p>
-                        </div>
+                            <a href="quehacer.html"><h4>Qué hacer</h4>
+                                 <p class="hidden-sm-down">Recorrer Moquegua es un sentimiento profundo. Atrévete a vivirlo.</p></a> </div>
                     </li>
                     <li class="wow zoomIn" data-wow-duration=".3s" data-wow-delay=".7s">
                         <i class="fa fa-map" aria-hidden="true"></i>
@@ -201,90 +243,81 @@
             <p class="text-center">Nuestra misión es lograr que, los visitantes a nuestro sitio web, tengan la información de los mejores destinos y servicios Turísticos; al mejor precio y calidad</p>
         </div>
     </main>
-    <section class="noticia py-2">
-        <div class="container">
-            <div class="row">
-                <div class="carousel  col-md-12 col-lg-9" id="noticias">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="#"><img class="d-block img-fluid" src="images/noticias/n1.jpg" alt="notcias1"></a>
-                            <div class="carousel-caption">
-                                <a href="#"><h4>Concejo aprobó declaratoria de emergencia de la provincia Mariscal Nieto por periodo de lluvias</h4></a>
-                                <p>*Alcalde enfatizó que con la medida se podrá utilizar recursos destinados a la emergencia. Por unanimidad el concejo provincial aprobó la declaratoria en situación de emergencia de la Provincia Mariscal Nieto, que permitirá a la comuna disponer de recursos económicos para...</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
 
-                            <a href="#"><img class="d-block img-fluid" src="images/noticias/n2.jpg" alt="notcias1"></a>
-                            <div class="carousel-caption">
-                                <a href="#"><h4>Alcalde declaró en sesión permanente plataforma de defensa civil de la  provincia Mariscal Nieto</h4></a>
-                                <p>*Se convoca de forma urgente sesión de regidores para declarar situación de emergencia. El alcalde de la Municipalidad Provincial Mariscal Nieto, Dr. Hugo Quispe Mamani, declaró en sesión permanente la Plataforma Provincial de Defensa Civil, a fin de permanecer alertas...</p>
-                            </div>
-
-                        </div>
-                        <div class="carousel-item">
-
-                            <a href="#"><img class="d-block img-fluid" src="images/noticias/n3.jpg" alt="notcias1"></a>
-                            <div class="carousel-caption">
-                                <a href="#"><h4>Comuna provincial realiza acopio de rocas para posterior enrocado de rio</h4></a>
-                                <p>La Municipalidad Provincial Mariscal Nieto viene realizando el acopio de piedras para el posterior enrocado del río, así como trabajos de protección en la zona conocida como Chirilo, desde tempranas horas de la mañana, partiendo desde el tramo del Puente Tucumán hasta Puente El Rosal. La...
-                                </p>
-                            </div>
-
-
+    <!--<section class="noticia py-2">
+    <div class="container">
+        <div class="row">
+            <div class="carousel  col-md-12 col-lg-9" id="noticias">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#"><img class="d-block img-fluid" src="images/noticias/n1.jpg" alt="notcias1"></a>
+                        <div class="carousel-caption">
+                            <a href="#"><h4>Concejo aprobó declaratoria de emergencia de la provincia Mariscal Nieto por periodo de lluvias</h4></a>
+                            <p>Alcalde enfatizó que con la medida se podrá utilizar recursos destinados a la emergencia. Por unanimidad el concejo provincial aprobó la declaratoria en situación de emergencia de la Provincia Mariscal Nieto, que permitirá a la comuna disponer de recursos económicos para...</p>
                         </div>
                     </div>
-
-                </div>
-                <div class=" col-md-12 col-lg-3  wow bounceIn" data-wow-delay=".3s">
-                    <h3 class="text-center text-md-left font-weight-bold">Noticias</h3>
-                    <div class="offer offer-radius offer-warning">
-                        <div class="shape">
-                            <div class="shape-text">
-                                top
-                            </div>
+                    <div class="carousel-item">
+                        <a href="#"><img class="d-block img-fluid" src="images/noticias/n2.jpg" alt="notcias1"></a>
+                        <div class="carousel-caption">
+                            <a href="#"><h4>Alcalde declaró en sesión permanente plataforma de defensa civil de la  provincia Mariscal Nieto</h4></a>
+                            <p>Se convoca de forma urgente sesión de regidores para declarar situación de emergencia. El alcalde de la Municipalidad Provincial Mariscal Nieto, Dr. Hugo Quispe Mamani, declaró en sesión permanente la Plataforma Provincial de Defensa Civil, a fin de permanecer alertas...</p>
                         </div>
-                        <div class="offer-content">
-
-                            <p>Concejo aprobó declaratoria de emergencia de la provincia Mariscal Nieto por periodo de lluvias
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#"><img class="d-block img-fluid" src="images/noticias/n3.jpg" alt="notcias1"></a>
+                        <div class="carousel-caption">
+                            <a href="#"><h4>Comuna provincial realiza acopio de rocas para posterior enrocado de rio</h4></a>
+                            <p>La Municipalidad Provincial Mariscal Nieto viene realizando el acopio de piedras para el posterior enrocado del río, así como trabajos de protección en la zona conocida como Chirilo, desde tempranas horas de la mañana, partiendo desde el tramo del Puente Tucumán hasta Puente El Rosal. La...
                             </p>
                         </div>
                     </div>
-                    <div class="offer offer-radius offer-warning">
-                        <div class="shape">
-                            <div class="shape-text">
-                                top
-                            </div>
-                        </div>
-                        <div class="offer-content">
-
-                            <p >Alcalde declaró en sesión permanente plataforma de defensa civil de la provincia Mariscal Nieto
-                            </p>
-                        </div>
-                    </div>
-                    <div class="offer offer-radius offer-warning">
-                        <div class="shape">
-                            <div class="shape-text">
-                                top
-                            </div>
-                        </div>
-                        <div class="offer-content">
-
-                            <p >Comuna provincial realiza acopio de rocas para posterior enrocado de rio</p>
-                        </div>
-                    </div>
-                    <!--
-                    <ul class="list-group">
-
-    <li data-target="#noticias" data-slide-to="0" class="list-group-item active">CONCEJO APROBÓ DECLARATORIA DE EMERGENCIA DE LA PROVINCIA MARISCAL NIETO POR PERIODO DE LLUVIAS</li>
-    <li data-target="#noticias" data-slide-to="1" class="list-group-item ">ALCALDE DECLARÓ EN SESIÓN PERMANENTE PLATAFORMA DE DEFENSA CIVIL DE LA PROVINCIA MARISCAL NIETO</li>
-    <li data-target="#noticias" data-slide-to="2" class="list-group-item ">COMUNA PROVINCIAL REALIZA ACOPIO DE ROCAS PARA POSTERIOR ENROCADO DE RIO</li>
-</ul>
--->
                 </div>
             </div>
+            <div class=" col-md-12 col-lg-3  wow bounceIn" data-wow-delay=".3s">
+                <h3 class="text-center text-md-left font-weight-bold">Noticias</h3>
+                <div class="offer offer-radius offer-warning">
+                    <div class="shape">
+                        <div class="shape-text">
+                            top
+                        </div>
+                    </div>
+                    <div class="offer-content">
+                        <p>Concejo aprobó declaratoria de emergencia de la provincia Mariscal Nieto por periodo de lluvias
+                        </p>
+                    </div>
+                </div>
+                <div class="offer offer-radius offer-warning">
+                    <div class="shape">
+                        <div class="shape-text">
+                            top
+                        </div>
+                    </div>
+                    <div class="offer-content">
+                        <p>Alcalde declaró en sesión permanente plataforma de defensa civil de la provincia Mariscal Nieto
+                        </p>
+                    </div>
+                </div>
+                <div class="offer offer-radius offer-warning">
+                    <div class="shape">
+                        <div class="shape-text">
+                            top
+                        </div>
+                    </div>
+                    <div class="offer-content">
+                        <p>Comuna provincial realiza acopio de rocas para posterior enrocado de rio</p>
+                    </div>
+                </div>
+
+                <ul class="list-group">
+                    <li data-target="#noticias" data-slide-to="0" class="list-group-item active">CONCEJO APROBÓ DECLARATORIA DE EMERGENCIA DE LA PROVINCIA MARISCAL NIETO POR PERIODO DE LLUVIAS</li>
+                    <li data-target="#noticias" data-slide-to="1" class="list-group-item ">ALCALDE DECLARÓ EN SESIÓN PERMANENTE PLATAFORMA DE DEFENSA CIVIL DE LA PROVINCIA MARISCAL NIETO</li>
+                    <li data-target="#noticias" data-slide-to="2" class="list-group-item ">COMUNA PROVINCIAL REALIZA ACOPIO DE ROCAS PARA POSTERIOR ENROCADO DE RIO</li>
+                </ul>
+
+            </div>
         </div>
-    </section>
+    </div>
+</section>-->
     <section class="actividades">
         <div class="container">
             <h2 class="text-center font-weight-bold">Actividades por Interés</h2>
@@ -313,14 +346,13 @@
                     <!--                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6523883371576230" data-ad-slot="2269588903" data-ad-format="auto"></ins>-->
                 </div>
                 <div class="col-md-4">
-                    <!--                   <a href="https://play.google.com/store/apps/details?id=com.devalfe.citse.tours"><img src="images/Google_Play.png" alt="Turismo moquegua"></a>-->
+
                     <a class="btn btn-lg btn-success big-btn android-btn" href="https://play.google.com/store/apps/details?id=com.devalfe.citse.tours">
                         <img width="80px" class="pull-left" src="http://www.userlogos.org/files/logos/jumpordie/google_play_04.png">
                         <div class="btn-text"><small>Disponible en</small>
                             <br><strong>Google Play</strong></div>
                     </a>
-                    <!--                    <h4>News & Updates</h4>-->
-                    <!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nam corporis quas, saepe minima error aperiam dolorum aliquam, quis deserunt eos eius quisquam odio itaque.</p>-->
+
                 </div>
                 <div class="col-md-4 contac-us">
                     <h4>Contacto</h4>

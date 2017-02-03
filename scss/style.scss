@@ -31,7 +31,7 @@ h5 {
 .encabezado {
     background: $text;
     color: #fff;
-    padding: .5rem 0;
+    padding: .4rem 0;
     transition: all .5s ease;
 }
 .encabezado.fondo-menu {
@@ -46,19 +46,18 @@ h5 {
     align-items: center;
     flex-wrap: wrap;
 }
-.encabezado .logo {
-    width: 50px;
+.encabezado .logo img {
+    width: 3rem;
     height: auto;
-    // margin-bottom: auto;
+    max-width: 3rem;
 }
-.encabezado .moque {
-    width: 220px;
+.encabezado .moque img {
+    width: 12rem;
+    max-width: 12rem;
     height: auto;
-    // margin-bottom: auto;
 }
 .bienvenidos .logo-moque img {
     width: 35%;
-    height: auto;
 }
 .boton-buscar,
 .boton-menu {
@@ -671,6 +670,12 @@ ul.thumbnails {
 .internas .galeria img:hover {
     filter: none;
 }
+//mapas
+
+/*******************************
+***  mapas ***
+*******************************/
+
 .internas .mapa {
     width: 80%;
     margin: 0 auto;
@@ -692,9 +697,7 @@ ul.thumbnails {
     display: block;
 }
 .internas .mapa #map {
-    //position: absolute;
     left: 0px;
-    // top: 0px;
     z-index: 188;
     width: 100%;
     height: 700px;
@@ -709,6 +712,18 @@ ul.thumbnails {
 .internas .mapa .page-footer h2 {
     line-height: 0.88rem;
     color: #000;
+}
+.internas .mapa .container .row #floating-panel {
+    //position: absolute;
+    //top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: $secundario;
+    padding: 5px;
+    border: 1px solid $principal;
+    text-align: center;
+    padding-left: 10px;
+    color: #fff;
 }
 //fechas
 .internas .linetime #timeline {
@@ -1021,8 +1036,15 @@ ul.thumbnails {
     display: flex;
 }
 //------atractivos-----------------------
-.atractivos .carousel .carousel {
-    width: 600px;
+.atractivos .carousel {
+    width: 580px;
+}
+.atractivos .container .row .carousel {
+    display: flex;
+    justify-content: center;
+}
+.atractivos .container .row .row {
+    justify-content: center;
 }
 .atractivos .carousel .carousel-indicators {
     bottom: 0;
@@ -1031,11 +1053,47 @@ ul.thumbnails {
     //width: 100%;
 }
 .atractivos .img-fluid {
-    width: 600px;
-    height: 350px;
+    width: 580px;
+    height: 450px;
 }
 .atractivos .row {
     padding-bottom: 1rem;
+}
+.atractivos .container {
+    display: flex;
+    flex-direction: column;
+    // padding-bottom: 1rem;
+}
+.atractivos .row article {
+    float: left;
+    border: 1.7px solid #d4d4d4;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.172549) 0px 1px 6px;
+    background-color: #e74c3c;
+    //margin-bottom: 1rem;
+    //display: flex
+}
+.atractivos .container .row .black-ed {
+    margin-bottom: 1rem;
+    display: flex;
+}
+.atractivos .container .row .black-ed h4 {
+    padding: 15px;
+    margin: 0px;
+    color: #f7f7f9;
+    border-radius: 6px 6px 0px 0px;
+    position: relative;
+}
+.atractivos .container .row .black-ed .txtarticulo {
+    padding: 20px;
+    margin: 0px;
+    font-size: 1rem;
+    color: #656565;
+    border-radius: 6px;
+    border: 1.5px solid #d4d4d4;
+    background: white;
 }
 .atractivos .carousel .carousel-indicators li {
     border: medium none;
@@ -1047,6 +1105,30 @@ ul.thumbnails {
     margin-right: 5px !important;
     margin-top: 0;
     width: 100px;
+}
+.atractivos .container .row .black-ed .panel.primary {
+    background-color: rgb(46, 109, 164) !important;
+}
+.atractivos .container .row .black-ed .panel.success {
+    background-color: rgb(63, 144, 63) !important;
+}
+.atractivos .container .row .black-ed .panel.success1 {
+    background-color: #1abc9c !important;
+}
+.atractivos .container .row .black-ed .panel.warning {
+    background-color: rgb(240, 173, 78) !important;
+}
+.atractivos .container .row .black-ed .panel.warning1 {
+    background-color: #e67e22 !important;
+}
+.atractivos .container .row .black-ed .panel.danger {
+    background-color: rgb(231, 76, 60) !important;
+}
+.atractivos .container .row .black-ed .panel.info {
+    background-color: rgb(91, 192, 222) !important;
+}
+.atractivos .container .row .black-ed .panel.info1 {
+    background: #9b59b6 !important;
 }
 
 /* Indicators images style */
