@@ -20,13 +20,19 @@ h5 {
     font-family: 'Bree-Regular', serif;
 }
 .bienvenidos {
-    background: url("../images/fondo-principal.jpg") no-repeat center top;
+    background: url("../images/fondo-principal.jpg") no-repeat center center;
     color: #fff;
     background-size: cover;
     background-attachment: fixed !important;
     height: 100vh;
     display: flex;
     flex-direction: column;
+}
+#fondo {
+    background: url("../images/fondo-principal.jpg"), url("../images/fondo-principal1.jpg"), url("../images/fondo-principal2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed !important;
+    height: 100vh;
 }
 .encabezado {
     background: $text;
@@ -246,10 +252,53 @@ h5 {
     background: $principal;
     color: #fff;
 }
+.capital ul {
+    padding: 0;
+}
 .capital img {
-    width: 85%;
-    margin: 0 auto;
+    width: 550px;
+}
+.capital .accordian {
+    // width: 805px;
+    //height: 320px;
+    overflow: hidden;
+    margin: 1rem auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+.capital .accordian ul {
+    width: 2000px;
+}
+.capital .accordian li {
+    position: relative;
     display: block;
+    width: 180px;
+    float: left;
+    border-left: 1px solid #888;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+.capital .accordian ul:hover li {
+    width: 40px;
+}
+.capital .accordian ul li:hover {
+    width: 460px;
+}
+.capital .accordian li img {
+    display: block;
+}
+.capital .accordian .image_title {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 460px;
+}
+.capital .accordian .image_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
 }
 
 /*******************************
@@ -502,6 +551,131 @@ h5 {
 ***     servicios            ***
 *******************************/
 
+div.bhoechie-tab-container {
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+    display: flex;
+    text-decoration: none;
+    border-color: $secundario;
+}
+div.bhoechie-tab-container .bhoechie-tab-menu .list-group p {
+    margin-bottom: 0;
+}
+div.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+div.bhoechie-tab-menu ul.list-group {
+    margin-bottom: 0;
+    list-style: none;
+}
+div.bhoechie-tab-menu ul.list-group>a {
+    margin-bottom: 0;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    border-color: $principal;
+    border: $principal;
+}
+div.bhoechie-tab-menu ul.list-group>a .glyphicon,
+div.bhoechie-tab-menu ul.list-group>a .fa {
+    color: $principal;
+}
+div.bhoechie-tab-menu ul.list-group>a:first-child {
+    border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu ul.list-group>a:last-child {
+    border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu ul.list-group>a.active,
+div.bhoechie-tab-menu ul.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu ul.list-group>a.active .fa {
+    background-color: $principal;
+    background-image: $secundario;
+    color: #ffffff;
+    border-color: $principal;
+}
+div.bhoechie-tab-menu ul.list-group>a.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid $principal;
+}
+div.bhoechie-tab-content {
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.bhoechie-tab-container .bhoechie-tab .bhoechie-tab-content .fa {
+    font-size: 8rem;
+}
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+    display: none;
+}
+.internas .turismo ul {
+    padding: 0;
+}
+.internas .turismo img {
+    width: 550px;
+}
+.internas .turismo .accordian {
+    // width: 805px;
+    //height: 320px;
+    overflow: hidden;
+    margin: 1rem auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+.internas .turismo .accordian ul {
+    width: 2000px;
+}
+.internas .turismo .accordian li {
+    position: relative;
+    display: block;
+    width: 180px;
+    float: left;
+    border-left: 1px solid #888;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+.internas .turismo .accordian ul:hover li {
+    width: 40px;
+}
+.internas .turismo .accordian ul li:hover {
+    width: 460px;
+}
+.internas .turismo .accordian li img {
+    display: block;
+}
+.internas .turismo .accordian .image_title {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 460px;
+}
+.internas .turismo .accordian .image_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+}
 .internas .lista-servicios {
     //background: $secundario;
 }
