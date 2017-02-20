@@ -13,6 +13,12 @@ h4,
 h5 {
   font-family: 'Bree-Regular', serif; }
 
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed !important; }
+
 .bienvenidos {
   background: url("../images/fondo-principal.jpg") no-repeat center center;
   color: #fff;
@@ -26,11 +32,11 @@ h5 {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-#fondo {
-  background: url("../images/fondo-principal.jpg"), url("../images/fondo-principal1.jpg"), url("../images/fondo-principal2.jpg") no-repeat center center fixed;
-  background-size: cover;
-  background-attachment: fixed !important;
-  height: 100vh; }
+.bienvenidos .carousel,
+.bienvenidos .carousel .carouse-item,
+.bienvenidos .carousel .carouse-item .active {
+  width: auto;
+  max-height: 100%; }
 
 .encabezado {
   background: #111111;
@@ -862,6 +868,21 @@ ul.thumbnails {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center; }
+
+#galeria ul {
+  padding-left: 0; }
+
+#galeria ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  width: 20%; }
+
+#galeria ul li img {
+  width: 100%;
+  height: 285px; }
 
 .internas .slider {
   width: auto;
