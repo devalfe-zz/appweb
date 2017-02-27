@@ -15,7 +15,7 @@ h5 {
 
 .full-screen {
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed !important; }
 
@@ -37,6 +37,32 @@ h5 {
 .bienvenidos .carousel .carouse-item .active {
   width: auto;
   max-height: 100%; }
+
+.bienvenidos .carousel .carousel-caption {
+  margin: 16% auto; }
+
+.carousel-item.active:after {
+  background: rgba(25, 25, 25, 0.6); }
+
+.carousel-style-left {
+  text-align: left !important; }
+
+.carousel-style-right {
+  text-align: right !important; }
+
+.carousel-style-center {
+  text-align: center !important; }
+
+.full-screen:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: rgba(25, 25, 25, 0.2);
+  transition: 1.2s;
+  z-index: 1; }
 
 .encabezado {
   background: #111111;
@@ -73,7 +99,7 @@ h5 {
   height: auto; }
 
 .bienvenidos .logo-moque img {
-  width: 35%; }
+  width: 350px; }
 
 .boton-buscar,
 .boton-menu {
@@ -162,19 +188,6 @@ h5 {
 
 .text-encabezado .display-4 {
   margin-top: 1.5rem; }
-
-.btn-primary {
-  color: #fff;
-  background-color: #F1780D;
-  border-color: transparent;
-  margin-top: 1rem;
-  transition: all .5s ease; }
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-  background-color: #F1A50D;
-  border-color: transparent; }
 
 /***** Modal *****/
 .text-encabezado .modal-backdrop.in {
@@ -905,9 +918,6 @@ ul.thumbnails {
   -webkit-filter: none;
   filter: none; }
 
-/*******************************
-***  mapas ***
-*******************************/
 .internas .mapa {
   width: 80%;
   margin: 0 auto; }
@@ -1620,7 +1630,7 @@ ul.thumbnails {
   .social {
     padding-top: 80px; }
   .text-encabezado .display-4 {
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-size: 3.5rem; } }
 
 /*******************************
@@ -1630,7 +1640,7 @@ ul.thumbnails {
   html {
     font-size: 15px; }
   .bienvenidos {
-    background: url("../images/fondo-grande.jpg") no-repeat center top;
+    background: url("../images/fondo-grande.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed !important; }
   .conozca-moquegua ul li {
@@ -1670,7 +1680,7 @@ ul.thumbnails {
   .conozca-moquegua ul li p {
     font-size: 1rem; }
   .bienvenidos .logo-moque img {
-    width: 25%; }
+    width: 250PX; }
   .social {
     padding-top: 180px; } }
 
@@ -1680,7 +1690,7 @@ ul.thumbnails {
   .social {
     padding-top: 50px; }
   .text-encabezado .display-4 {
-    margin-top: 5rem;
+    margin-top: 2rem;
     font-size: 2.5rem; }
   .conozca-moquegua ul li .eleccion h4 {
     font-size: 1rem; }
@@ -1703,7 +1713,9 @@ ul.thumbnails {
     border-left-width: 0;
     border-right-width: 14px;
     left: -14px;
-    right: auto; } }
+    right: auto; }
+  .bienvenidos .carousel .carousel-caption {
+    margin: 50% auto; } }
 
 @media (max-width: 415px) {
   .social .divider-2 {

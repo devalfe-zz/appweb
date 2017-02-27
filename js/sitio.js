@@ -67,12 +67,13 @@ var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
 $item.height($wHeight);
 $item.addClass('full-screen');
-$('.carousel img').each(function () {
+$('.carousel .figure').each(function () {
     var $src = $(this).attr('src');
     var $color = $(this).attr('data-color');
     $(this).parent().css({
         'background-image': 'url(' + $src + ')',
-        'background-color': $color
+        'background-color': $color,
+
     });
     $(this).remove();
 });
